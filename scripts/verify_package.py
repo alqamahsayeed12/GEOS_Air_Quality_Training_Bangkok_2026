@@ -13,11 +13,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
     "README.md",
+    "VERSION",
+    "CHANGELOG.md",
     "requirements-colab.txt",
+    "requirements-lock.txt",
+    "environment.yml",
+    ".github/dependabot.yml",
+    ".github/workflows/runtime-smoke.yml",
+    "docs/MAINTENANCE.md",
     "notebooks/00_module0_google_colab_setup.ipynb",
     "notebooks/01_module1_download_geos_fp.ipynb",
     "notebooks/02_module2_ground_stations_qaqc_geos25km_collocation.ipynb",
     "notebooks/03_module3_bias_correction_and_downscaling.ipynb",
+    "data/module1/geos_fp_global_pm25_snapshot.nc4",
+    "data/module1/geos_fp_regional_aerosol_snapshot.nc4",
+    "data/module1/openaq_reference_pm25_stations.csv",
+    "data/module1/openaq_reference_pm25_hourly.csv",
     "data/module2/geos/20230505.nc",
     "data/module2/geos/20230506.nc",
     "data/module2/full_period_aqms_geos_evaluation.csv",
@@ -31,9 +42,16 @@ FORBIDDEN_SOURCE = [
     "/Users/asayeed/",
     "day1_colab_support_files.zip",
 ]
+REQUIRED_MODULE1_SOURCE = [
+    "GEOS_SOURCE_MODE",
+    "OPENAQ_SOURCE_MODE",
+    "geos_fp_regional_aerosol_snapshot.nc4",
+    "openaq_reference_pm25_hourly.csv",
+]
 SECRET_PATTERNS = [
     re.compile(r"(?i)(api[_-]?key|token|secret)\s*=\s*['\"][A-Za-z0-9_-]{16,}"),
     re.compile(r"sk-[A-Za-z0-9_-]{20,}"),
+    re.compile(r"ghp_[A-Za-z0-9]{20,}"),
 ]
 
 
@@ -50,7 +68,9 @@ for path in ROOT.rglob("*"):
     if size >= 100 * 1024 * 1024:
         errors.append(f"File exceeds GitHub 100 MiB limit: {path.relative_to(ROOT)}")
 
-    if path.suffix.lower() in {".md", ".py", ".txt", ".yml", ".yaml", ".html"}:
+    if path.suffix.lower() in {
+        ".ipynb", ".json", ".md", ".py", ".txt", ".yml", ".yaml", ".html"
+    }:
         text = path.read_text(encoding="utf-8", errors="ignore")
         for pattern in SECRET_PATTERNS:
             if pattern.search(text):
@@ -137,6 +157,10 @@ for notebook_path in sorted((ROOT / "notebooks").glob("*.ipynb")):
     for forbidden in FORBIDDEN_SOURCE:
         if forbidden in source:
             errors.append(f"Nonportable source in {notebook_path.name}: {forbidden}")
+    if notebook_path.name == "01_module1_download_geos_fp.ipynb":
+        for required_text in REQUIRED_MODULE1_SOURCE:
+            if required_text not in source:
+                errors.append(f"Module 1 recovery logic is missing: {required_text}")
     for index, cell in enumerate(notebook.get("cells", [])):
         if cell.get("cell_type") != "code":
             continue
@@ -161,6 +185,17 @@ if presentation.exists():
         target = (presentation.parent / reference).resolve()
         if not target.exists():
             errors.append(f"Broken presentation link: {reference}")
+
+# The Colab environment must be reproducible and free of open-ended ranges.
+lock_path = ROOT / "requirements-lock.txt"
+if lock_path.exists():
+    lock_lines = [
+        line.strip() for line in lock_path.read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.lstrip().startswith("#")
+    ]
+    for line in lock_lines:
+        if "==" not in line:
+            errors.append(f"Unpinned dependency in requirements-lock.txt: {line}")
 
 if errors:
     print("PACKAGE VALIDATION FAILED")

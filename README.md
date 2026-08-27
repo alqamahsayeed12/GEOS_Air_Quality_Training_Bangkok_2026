@@ -65,6 +65,20 @@ the machine-readable [data manifest](data_manifest.csv). The
 [package inventory](docs/PACKAGE_INVENTORY.md) maps every notebook to its data,
 scalar, model, and presentation dependencies.
 
+## Reliability
+
+- `requirements-lock.txt` pins the environment used by Colab and CI.
+- Module 1 uses live NASA and OpenAQ services when available, then switches to
+  bundled, timestamp-preserving recovery snapshots if either service fails.
+- Modules 2 and 3 run entirely from committed data, scalars, and models.
+- GitHub Actions validates every change and runs a scheduled offline runtime
+  test that opens the NetCDFs and executes representative model predictions.
+- Every packaged data and model file has a SHA-256 checksum in
+  `data_manifest.csv`.
+
+See [Maintenance and recovery](docs/MAINTENANCE.md) for release, rollback, and
+classroom recovery procedures.
+
 ## OpenAQ API Key
 
 Only the live OpenAQ exercise in Module 1 requires a personal key. Register at
@@ -91,6 +105,8 @@ jupyter lab
 - Create a branch for code or documentation changes and submit a pull request.
 - Do not commit API keys, participant personal information, or unapproved data.
 - Run `python scripts/verify_package.py` before submitting changes.
+- Run `python scripts/smoke_test_runtime.py` after changing dependencies, data,
+  scalars, or models.
 
 ## Authoritative Services
 

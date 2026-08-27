@@ -1,4 +1,9 @@
 path,size_bytes,sha256,source,training_purpose,redistribution_status
+data/module1/README.md,938,f04a3db8cd5ab8303f831cf0d8c80d2258e2d04fe81e2cbc6463e0b5bc39b9ad,NASA GEOS-FP and OpenAQ,Module 1 offline recovery,inherits source terms
+data/module1/geos_fp_global_pm25_snapshot.nc4,1348438,01f972b85832f86de5a87d6a40bdca7fbea8de3a76c1275e0b8be0203ae11536,NASA GEOS-FP and OpenAQ,Module 1 offline recovery,inherits source terms
+data/module1/geos_fp_regional_aerosol_snapshot.nc4,250105,425871f7a95722ebe02672ca2e85cd4585f10cb52d01be1a0a5689674e494b0f,NASA GEOS-FP and OpenAQ,Module 1 offline recovery,inherits source terms
+data/module1/openaq_reference_pm25_hourly.csv,278019,bda3e440701d96aada4693d025e5e1ff621d2e436279a287c9030ba41e5a0dee,NASA GEOS-FP and OpenAQ,Module 1 offline recovery,inherits source terms
+data/module1/openaq_reference_pm25_stations.csv,85429,382268d8e73b8b7d06bacf7cd77514c254937bb872936aa8a855e1271ce665af,NASA GEOS-FP and OpenAQ,Module 1 offline recovery,inherits source terms
 data/module2/README.md,253,2d65abc3f7b08986a46c4645a3fde68fe7fed7c9676efbe3068b2fb44f100ce7,Course package,Training support,see documentation
 data/module2/aqms/AQMS01.csv,1172483,feb9de0696cc3a9cbaf4458738606677cb79093c0a67f987b57ffa21ff8047cb,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
 data/module2/aqms/AQMS02.csv,1137681,3f32cde0e312ad6caf2582efbcfc678bca8d27a7841fa78cd591513784848070,Lao PDR AQMS,Ground-station QA/QC,confirm before public release

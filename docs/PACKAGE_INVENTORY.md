@@ -8,10 +8,20 @@ in `data_manifest.csv`.
 
 | Module | Notebook | Runtime inputs |
 |---|---|---|
-| 0 | `00_module0_google_colab_setup.ipynb` | Repository and `requirements-colab.txt` |
-| 1 | `01_module1_download_geos_fp.ipynb` | Live NASA GEOS-FP OPeNDAP; optional personal OpenAQ key |
+| 0 | `00_module0_google_colab_setup.ipynb` | Repository, locked environment, and package verifier |
+| 1 | `01_module1_download_geos_fp.ipynb` | Live NASA/OpenAQ services with bundled recovery data |
 | 2 | `02_module2_ground_stations_qaqc_geos25km_collocation.ipynb` | Module 2 station, grid, GEOS, and evaluation assets |
 | 3 | `03_module3_bias_correction_and_downscaling.ipynb` | Module 3 sample data, scalars, fold models, ensemble, and downscaler |
+
+## Module 1 Recovery Data
+
+- One global native GEOS-FP PM2.5 field for the global map
+- One Southeast Asia native GEOS-FP field with PM2.5 and nine aerosol/optical variables
+- Archived OpenAQ station metadata and 1,926 hourly PM2.5 records
+
+The notebook reports the active source. Recovery timestamps remain unchanged,
+and a nonmatching GEOS/OpenAQ overlay is labeled as spatial context rather than
+temporal validation.
 
 ## Module 2 Data
 
@@ -63,7 +73,8 @@ predictors. Module 3 explicitly assigns fixed `0-1000 µg/m³` bounds to `PM25`,
 - 24-hour GEOS PM2.5 frames, hover values, and wind field
 - Animation, figures, logos, Leaflet velocity library, and notebook previews
 - Participant, instructor, API-key, troubleshooting, publishing, and licensing guides
-- GitHub issue templates and package-validation workflow
+- GitHub issue templates, static validation, scheduled runtime smoke testing,
+  pinned dependencies, and Dependabot review
 
 ## Automated Verification
 
@@ -77,3 +88,9 @@ The check verifies required paths, notebook syntax, portable source paths,
 station/model counts, all expected Day 1-3 model names, scalar feature coverage,
 manifest completeness, SHA-256 checksums, presentation links, file-size limits,
 and common secret patterns.
+
+After dependency, model, or NetCDF changes, also run:
+
+```bash
+python scripts/smoke_test_runtime.py
+```

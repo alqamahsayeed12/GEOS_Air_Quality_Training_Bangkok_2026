@@ -6,7 +6,8 @@
    files listed in `data_manifest.csv`.
 2. Confirm that partner logos may be used in the public course site.
 3. Run `python scripts/verify_package.py`.
-4. Review `git status` and confirm no outputs, API keys, or unrelated files are
+4. Run `python scripts/smoke_test_runtime.py` in the locked environment.
+5. Review `git status` and confirm no outputs, API keys, or unrelated files are
    staged.
 
 ## 2. Create the Public GitHub Repository
@@ -43,9 +44,14 @@ will be published at:
 5. Run Module 3 and confirm the final four-panel figure appears.
 6. Test the issue templates without submitting a real issue.
 
-## 5. Freeze the Training Version
+## 5. Protect the Main Branch
+
+In **Settings > Branches**, require a pull request and both Actions checks before
+merging into `main`. Disable force pushes. Enable Dependabot alerts and review
+its monthly pull requests only after both checks pass.
+
+## 6. Freeze the Training Version
 
 Create a GitHub release such as `v2026.09-training`. Ask participants to use the
 release tag or the unchanged `main` branch during the event. Publish corrections
 through reviewed commits and state the exact commit participants should reopen.
-

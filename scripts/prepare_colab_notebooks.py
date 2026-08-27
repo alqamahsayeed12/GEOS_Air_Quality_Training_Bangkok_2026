@@ -64,6 +64,11 @@ if IN_COLAB:
             ["git", "clone", "--depth", "1", REPO_URL, str(TRAINING_ROOT)],
             check=True,
         )
+    else:
+        subprocess.run(
+            ["git", "-C", str(TRAINING_ROOT), "pull", "--ff-only"],
+            check=True,
+        )
 else:
     candidates = [Path.cwd(), Path.cwd().parent]
     TRAINING_ROOT = next(
@@ -132,6 +137,10 @@ def rebuild_module0() -> None:
             TRAINING_ROOT / "notebooks" / "01_module1_download_geos_fp.ipynb",
             TRAINING_ROOT / "notebooks" / "02_module2_ground_stations_qaqc_geos25km_collocation.ipynb",
             TRAINING_ROOT / "notebooks" / "03_module3_bias_correction_and_downscaling.ipynb",
+            TRAINING_ROOT / "requirements-lock.txt",
+            TRAINING_ROOT / "data" / "module1" / "geos_fp_global_pm25_snapshot.nc4",
+            TRAINING_ROOT / "data" / "module1" / "geos_fp_regional_aerosol_snapshot.nc4",
+            TRAINING_ROOT / "data" / "module1" / "openaq_reference_pm25_hourly.csv",
             TRAINING_ROOT / "data" / "module2" / "geos_25km_grid_template.nc",
             TRAINING_ROOT / "data" / "module2" / "full_period_aqms_geos_evaluation.csv",
             TRAINING_ROOT / "data" / "module3" / "model_assets" / "max_min4.csv",

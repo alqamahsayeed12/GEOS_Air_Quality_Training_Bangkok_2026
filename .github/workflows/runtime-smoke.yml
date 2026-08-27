@@ -1,0 +1,32 @@
+name: Runtime smoke test
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "requirements-lock.txt"
+      - "data/**"
+      - "scripts/smoke_test_runtime.py"
+      - ".github/workflows/runtime-smoke.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  offline-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - name: Install locked environment
+        run: python -m pip install -r requirements-lock.txt
+      - name: Exercise bundled NetCDF, tables, and models
+        run: python scripts/smoke_test_runtime.py

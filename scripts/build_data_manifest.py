@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUP_INFO = {
+    "data/module1": ("NASA GEOS-FP and OpenAQ", "Module 1 offline recovery", "inherits source terms"),
     "data/module2/aqms": ("Lao PDR AQMS", "Ground-station QA/QC", "confirm before public release"),
     "data/module2/pcd": ("Thai PCD", "Ground-station QA/QC", "confirm before public release"),
     "data/module2/geos": ("NASA GEOS-FP", "Compact collocation example", "NASA source terms"),
@@ -44,7 +45,7 @@ for path in sorted((ROOT / "data").rglob("*")):
 
 output = ROOT / "data_manifest.csv"
 with output.open("w", newline="", encoding="utf-8") as handle:
-    writer = csv.DictWriter(handle, fieldnames=rows[0].keys())
+    writer = csv.DictWriter(handle, fieldnames=rows[0].keys(), lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
 

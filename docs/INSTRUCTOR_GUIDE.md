@@ -6,14 +6,16 @@
 2. Run all notebooks in a clean Colab runtime using the public GitHub URLs.
 3. Verify that NASA OPeNDAP and OpenAQ endpoints still match Module 1.
 4. Run `python scripts/verify_package.py` and review `data_manifest.csv`.
-5. Create a versioned GitHub release before the course begins.
-6. Freeze the participant branch during the live training.
+5. Run `python scripts/smoke_test_runtime.py` in the locked environment.
+6. Test Module 1 once with each live-service flag set to `False`.
+7. Create a versioned GitHub release before the course begins.
+8. Freeze the participant branch during the live training.
 
 ## Classroom Workflow
 
 - Demonstrate Module 0 before participants begin.
 - Ask participants to save a Drive copy of every notebook.
-- Keep a downloaded copy of the compact data as an offline contingency.
+- Confirm the committed Module 1 recovery snapshots before class begins.
 - Use GitHub Issues for questions that require follow-up after the session.
 - Publish corrected notebooks through reviewed pull requests and announce the
   commit or release tag participants should use.
@@ -26,4 +28,3 @@
 - Spatial matching uses nearest GEOS grid center by Haversine distance.
 - Forecast day is retained with initialization and valid timestamps.
 - Static global min-max values are reused during model training and inference.
-

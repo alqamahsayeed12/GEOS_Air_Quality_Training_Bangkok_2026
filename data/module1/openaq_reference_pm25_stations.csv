@@ -1,0 +1,525 @@
+location_id,location_name,sensor_id,sensor_name,latitude,longitude,country,provider,owner,instruments,monitor
+18,SPARTAN - Vietnam Acad. Sci.,37,pm25 µg/m³,21.048,105.8,VN,Spartan,Unknown Governmental Organization,Government Monitor,True
+135,Prabadang Rehabiltation Center,5077838,pm25 µg/m³,13.664087,100.543436,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+418,Department of Disease Control,1316996,pm25 µg/m³,13.853457,100.527132,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+701,Sukhothai Thammathirat Open University,1304255,pm25 µg/m³,13.907861,100.535641,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+717,Pluakdaeng District Health Office,1304268,pm25 µg/m³,12.97378333,101.21285,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+906,Residence for Dept. of Mineral Resources,1304207,pm25 µg/m³,13.652141,100.531805,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2167,Highway District,1304205,pm25 µg/m³,13.7054879,100.315622,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2326,Thai Meteorological Department,1304072,pm25 µg/m³,13.666183,100.605742,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2328,"Natural Resources and Environment Office, Chiangrai",1304242,pm25 µg/m³,19.909217,99.823467,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2352,Thonburi Power Sub-Station,5077771,pm25 µg/m³,13.727622,100.486568,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2375,Bodindecha Sing Singhaseni School,1304120,pm25 µg/m³,13.769634,100.614567,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2376,Samut Sakhon Wittayalai School,1304154,pm25 µg/m³,13.5502631,100.2647676,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2407,Municipality Office Tungsadao,1304052,pm25 µg/m³,13.588500000000002,101.28633329999998,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2411,Health Promotion Hospital Banthasri,1304059,pm25 µg/m³,18.4267833,99.7576333,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2433,Nonsi Witthaya School,1304284,pm25 µg/m³,13.70806667,100.5473333,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2446,US Diplomatic Post: Ho Chi Minh City,4681,pm25 µg/m³,10.783041,106.700722,VN,Ho Chi Minh City,Unknown Governmental Organization,Government Monitor,True
+2539,US Diplomatic Post: Hanoi,5049,pm25 µg/m³,21.02177,105.819002,VN,StateAir Hanoi,Unknown Governmental Organization,Government Monitor,True
+5545,Chulalongkorn Hospital,1304222,pm25 µg/m³,13.729852,100.536501,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+7153,Rangoon,21633,pm25 µg/m³,16.8256,96.1445,MM,AirNow,Unknown Governmental Organization,Government Monitor,True
+7214,芒市建设局,20769,pm25 µg/m³,24.441,98.57799999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+7373,芒市人民政府综合楼,21435,pm25 µg/m³,24.4368,98.5881,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+7440,US Diplomatic Post: Ho Chi Minh City,21631,pm25 µg/m³,10.782773,106.700035,VN,Ho Chi Minh City,Unknown Governmental Organization,Government Monitor,True
+7441,Hanoi,21632,pm25 µg/m³,21.021939,105.818806,VN,AirNow,Unknown Governmental Organization,Government Monitor,True
+7747,Hydrogeological Group Water Resources Regional Office4 khonkaen,1304249,pm25 µg/m³,16.44538333,102.83525,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+7840,Laem Chabang Municipal Stadium,1304350,pm25 µg/m³,13.11923333,100.91855,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+7846,"Field Crop Research Center, Rayong",1611423,pm25 µg/m³,12.73518333,101.13565,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+8097,振宁花园,23483,pm25 µg/m³,22.787499999999998,108.301,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+8893,Vientiane,25947,pm25 µg/m³,17.896122,102.64,LA,AirNow,Unknown Governmental Organization,Government Monitor,True
+8919,荷城子站,26040,pm25 µg/m³,23.1065,109.56690000000002,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+8922,新市环保局,26052,pm25 µg/m³,21.4661,109.0981,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+8947,普洱第二中学,26191,pm25 µg/m³,22.8322,100.9817,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+8950,景洪市江北,26209,pm25 µg/m³,22.022500000000004,100.8017,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+8951,景洪市江南,26215,pm25 µg/m³,22.001900000000003,100.7939,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+8964,来冶招待所,26288,pm25 µg/m³,23.736899999999995,109.2317,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+8965,来宾二中,26294,pm25 µg/m³,23.736099999999997,109.2328,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+8978,柳东小学,26372,pm25 µg/m³,24.3895,109.48559999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9035,江南子站　,26709,pm25 µg/m³,23.0672,109.6042,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9038,污水处理厂,26728,pm25 µg/m³,23.3993,103.3772,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9050,沙井镇街道办,26784,pm25 µg/m³,22.7757,108.2257,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9057,河东子站,26827,pm25 µg/m³,18.248899999999995,109.50779999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9063,河西子站,26868,pm25 µg/m³,18.2681,109.4964,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9064,河西水厂,26874,pm25 µg/m³,24.341000000000005,109.389,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9106,港区一小,27112,pm25 µg/m³,21.7431,108.5989,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9142,牛尾岭水库,27322,pm25 µg/m³,21.5958,109.2256,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9150,玉溪一中,27368,pm25 µg/m³,24.3703,102.5389,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9177,环保监测站,27533,pm25 µg/m³,24.327699999999997,109.4157,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9233,监测站,27884,pm25 µg/m³,23.349999999999998,103.38609999999998,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9236,监测站,27888,pm25 µg/m³,23.4168,103.38599999999998,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9450,英华嘉园,28826,pm25 µg/m³,22.735,108.3275,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9544,西山森林公园(对照点),29298,pm25 µg/m³,24.960800000000003,102.62509999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9564,贵城子站,29406,pm25 µg/m³,23.094799999999996,109.6014,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9705,防城镇政府,30140,pm25 µg/m³,21.763100000000005,108.35109999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9817,东仁乐园,30742,pm25 µg/m³,24.712099999999996,108.2134,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9843,东风水库,30898,pm25 µg/m³,24.3711,102.575,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9897,仙葫,31224,pm25 µg/m³,22.7906,108.43899999999998,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9970,北海工业园,31665,pm25 µg/m³,21.523300000000003,109.1778,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+9971,北湖,31671,pm25 µg/m³,22.8528,108.31410000000001,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10040,古亭山,32087,pm25 µg/m³,24.3134,109.49580000000002,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10107,城南新区,32501,pm25 µg/m³,22.3707,107.3702,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10130,大自然花园,32639,pm25 µg/m³,22.803699999999996,108.38290000000002,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10214,州图书馆,33139,pm25 µg/m³,23.368,103.37580000000001,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10217,州水务局,33157,pm25 µg/m³,23.359399999999997,104.25329999999998,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10236,市中心血站,33266,pm25 µg/m³,23.885899999999996,106.6538,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10237,市九中,33272,pm25 µg/m³,24.3631,109.40059999999998,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10244,市便民服务中心,33320,pm25 µg/m³,23.3892,104.2319,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10247,市农科院,33338,pm25 µg/m³,21.9508,108.6553,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10253,市四中,33378,pm25 µg/m³,24.2921,109.4311,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10290,市环保局,33610,pm25 µg/m³,23.8982,100.0781,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10293,市气象局,33613,pm25 µg/m³,23.8822,100.0894,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10308,市环保局,33740,pm25 µg/m³,22.7633,100.98,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10320,市环保局江州分局,33778,pm25 µg/m³,22.4136,107.34760000000001,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10323,市环保站,33804,pm25 µg/m³,24.6947,108.04970000000002,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10325,市环保站,33806,pm25 µg/m³,21.9667,108.6236,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10341,市疾控中心,33908,pm25 µg/m³,24.6989,108.0983,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10345,市监测站,34003,pm25 µg/m³,22.8225,108.3206,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10358,市监测站,34017,pm25 µg/m³,23.9011,106.61030000000001,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10426,德宏州监测站,34421,pm25 µg/m³,24.428,98.5842,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10427,德智高中(对照点),34427,pm25 µg/m³,23.1478,109.568,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+10447,文体中心,34559,pm25 µg/m³,24.3389,102.5381,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43291,东仁乐园(对照点),236232,pm25 µg/m³,24.715,108.2011,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43296,二十一中,236443,pm25 µg/m³,22.7881,108.3103,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43298,仙葫(对照点),236341,pm25 µg/m³,22.7904,108.43939999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43323,德智高中(对照点),236311,pm25 µg/m³,23.1478,109.568,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43326,来宾技工学校,236345,pm25 µg/m³,23.7256,109.2203,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43331,江南子站,236152,pm25 µg/m³,23.066599999999998,109.6047,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43336,沙埠小学,236297,pm25 µg/m³,21.9481,108.6549,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43345,牛尾岭水库(对照点),236547,pm25 µg/m³,21.587999999999997,109.22620000000002,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43366,防城档案局,236278,pm25 µg/m³,21.7731,108.3514,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43386,东坡学校子站,236878,pm25 µg/m³,19.5187,109.55669999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43402,云天化总部,237154,pm25 µg/m³,24.9856,102.66779999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43413,兴宾区政府,237083,pm25 µg/m³,23.729700000000005,109.17809999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43420,北职校,237852,pm25 µg/m³,21.9633,108.59590000000001,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43440,君悦子站,237299,pm25 µg/m³,18.3443,109.73479999999999,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43507,新世纪学校,237289,pm25 µg/m³,23.1172,109.5886,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43515,昆明学院,237610,pm25 µg/m³,24.9786,102.79970000000002,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43517,晋宁区生态环境分局,236822,pm25 µg/m³,24.673599999999997,102.59670000000001,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43581,祈福高中,237745,pm25 µg/m³,23.8798,106.6085,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43587,第一中学子站,237805,pm25 µg/m³,19.5167,109.57259999999998,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43593,红星社区,237035,pm25 µg/m³,22.761799999999997,108.4834,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43651,青年创业园,237903,pm25 µg/m³,24.8336,102.8017,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+43669,龙潭自来水厂,236802,pm25 µg/m³,21.4415,109.1911,CN,ChinaAQIData,Unknown Governmental Organization,Government Monitor,True
+225566,Amphawan Temple or Ban Nong Muang Temple,1304275,pm25 µg/m³,16.078641,103.634844,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225567,Maesai Health Office,1304055,pm25 µg/m³,20.427325,99.883842,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225567,Maesai Health Office,16312740,pm25 µg/m³,20.427325,99.883842,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225568,"Bang Khen District Office, Bangkok",1304254,pm25 µg/m³,13.873603,100.595839,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225568,"Bang Khen District Office, Bangkok",16312585,pm25 µg/m³,13.873603,100.595839,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225569,Health Promotion Hospital Bankhaohin,1304408,pm25 µg/m³,13.054551,101.098128,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225569,Health Promotion Hospital Bankhaohin,16312680,pm25 µg/m³,13.054551,101.098128,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225570,"Meteorological stations, Lampang",16312750,pm25 µg/m³,18.2783333,99.5064666,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225570,"Meteorological stations, Lampang",1304365,pm25 µg/m³,18.2783333,99.5064666,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225571,"Bang Khun Thian District Office, Bangkok",16312586,pm25 µg/m³,13.659908,100.435902,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225571,"Bang Khun Thian District Office, Bangkok",1304176,pm25 µg/m³,13.659908,100.435902,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225572,Kasertsart University,1304409,pm25 µg/m³,13.839923,100.575632,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225572,Kasertsart University,16312715,pm25 µg/m³,13.839923,100.575632,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225573,Hat Yai Municipality,1304393,pm25 µg/m³,7.020434,100.484088,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225573,Hat Yai Municipality,16312679,pm25 µg/m³,7.020434,100.484088,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225574,"Phra Kanong District Office,  Bangkok",1304286,pm25 µg/m³,13.691511,100.61457,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225574,"Phra Kanong District Office,  Bangkok",16312839,pm25 µg/m³,13.691511,100.61457,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225575,Bangkok Noi Train Police Station,1304403,pm25 µg/m³,13.759619,100.481137,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225575,Bangkok Noi Train Police Station,16312589,pm25 µg/m³,13.759619,100.481137,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225576,Khai Surasinghanat,1304250,pm25 µg/m³,12.648576,101.32245,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225576,Khai Surasinghanat,16312716,pm25 µg/m³,12.648576,101.32245,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225577,"Bank of Ayuthaya Head Office Yan Nawa, Bangkok",1304381,pm25 µg/m³,13.679226,100.54687,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225577,"Bank of Ayuthaya Head Office Yan Nawa, Bangkok",16312593,pm25 µg/m³,13.679226,100.54687,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225578,White Elephant Park,1304427,pm25 µg/m³,6.546205,101.283137,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225578,White Elephant Park,16312947,pm25 µg/m³,6.546205,101.283137,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225579,Yupparaj Wittayalai School,1304368,pm25 µg/m³,18.7909333,98.99,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225579,Yupparaj Wittayalai School,16312950,pm25 µg/m³,18.7909333,98.99,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225580,National Housing Authority Klongchan,16312782,pm25 µg/m³,13.779873,100.646009,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225580,National Housing Authority Klongchan,1304524,pm25 µg/m³,13.779873,100.646009,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225581,Chalermprakiet Hospital,16312621,pm25 µg/m³,19.5759666,101.0815166,LA,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225581,Chalermprakiet Hospital,1304415,pm25 µg/m³,19.5759666,101.0815166,LA,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225582,"Khlong Toei District Office, Bangkok",16312721,pm25 µg/m³,13.708488,100.583747,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225582,"Khlong Toei District Office, Bangkok",1304071,pm25 µg/m³,13.708488,100.583747,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225583,Mobile Air Quality Monitoring unit No.04,1304430,pm25 µg/m³,18.804718,98.896851,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225584,Samut Songkhram Health Office,1304161,pm25 µg/m³,13.428581,100.02466400000002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225584,Samut Songkhram Health Office,16312885,pm25 µg/m³,13.428581,100.02466400000002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225585,Chom Nan Chaloem Phrakiat Public Park,1304133,pm25 µg/m³,16.820832999999997,100.258056,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225585,Chom Nan Chaloem Phrakiat Public Park,16312647,pm25 µg/m³,16.820832999999997,100.258056,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225586,Elderly Health Rehabilitation Center,1304337,pm25 µg/m³,8.426923,99.96146899999998,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225586,Elderly Health Rehabilitation Center,16312671,pm25 µg/m³,8.426923,99.96146899999998,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225587,Water reservoir,16312946,pm25 µg/m³,13.832076,100.057961,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225587,Water reservoir,1304143,pm25 µg/m³,13.832076,100.057961,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225588,Nakhonban Phetchabun Cultural Hall,1304166,pm25 µg/m³,16.419884,101.160035,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225589,Kanjanapisek Park,16312713,pm25 µg/m³,13.691047,102.510442,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225589,Kanjanapisek Park,1304352,pm25 µg/m³,13.691047,102.510442,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225590,"Sai Mai District Office, Bangkok",16312881,pm25 µg/m³,13.896035,100.660628,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225590,"Sai Mai District Office, Bangkok",1304153,pm25 µg/m³,13.896035,100.660628,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225591,"Ladphrao District Office, Bangkok",1304377,pm25 µg/m³,13.803587,100.607535,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225591,"Ladphrao District Office, Bangkok",16312725,pm25 µg/m³,13.803587,100.607535,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225592,"District Hall, Kamphaeng Phet",1304391,pm25 µg/m³,16.48515,99.524454,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225593,Big C Supercenter Bang Na,16312598,pm25 µg/m³,13.667987,100.635313,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225593,Big C Supercenter Bang Na,1304057,pm25 µg/m³,13.667987,100.635313,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225594,Phichit Provincial Government Center,1304348,pm25 µg/m³,16.421049,100.3629,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225595,Bang Bon 5 Market,1304064,pm25 µg/m³,13.639165,100.372958,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225595,Bang Bon 5 Market,16312580,pm25 µg/m³,13.639165,100.372958,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225596,"Sathon District Office, Bangkok",1304091,pm25 µg/m³,13.707763,100.526787,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225596,"Sathon District Office, Bangkok",16312889,pm25 µg/m³,13.707763,100.526787,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225597,"Municipality Office, Uttaradit",1304085,pm25 µg/m³,17.62333,100.096111,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225598,Bu Yai Bai Hall Station,16312601,pm25 µg/m³,13.917563,101.590529,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225598,Bu Yai Bai Hall Station,1304370,pm25 µg/m³,13.917563,101.590529,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225599,Bangrak Lovely Plaza,1304306,pm25 µg/m³,13.726136,100.528055,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225599,Bangrak Lovely Plaza,16312592,pm25 µg/m³,13.726136,100.528055,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225600,Trat Provincial Central Stadium,1304282,pm25 µg/m³,12.234862,102.52372100000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225600,Trat Provincial Central Stadium,16312942,pm25 µg/m³,12.234862,102.52372100000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225601,Chaloem Phrakiat Park Station 80th birthday celebration,1304369,pm25 µg/m³,15.373638,100.038725,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225601,Chaloem Phrakiat Park Station 80th birthday celebration,16312632,pm25 µg/m³,15.373638,100.038725,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225602,Municipal Waste Water Pumping Station,16312767,pm25 µg/m³,14.979536999999999,102.098335,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225602,Municipal Waste Water Pumping Station,1304112,pm25 µg/m³,14.979536999999999,102.098335,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225603,"Field Crop Research Center, Rayong",16312676,pm25 µg/m³,12.73518333,101.13565,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225603,"Field Crop Research Center, Rayong",1304092,pm25 µg/m³,12.73518333,101.13565,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225604,Seacon Square,1304378,pm25 µg/m³,13.695561,100.647615,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225604,Seacon Square,16312891,pm25 µg/m³,13.695561,100.647615,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225605,Municipal Health Center,1304302,pm25 µg/m³,7.884488,98.391283,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225605,Municipal Health Center,16312765,pm25 µg/m³,7.884488,98.391283,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225606,Kanchanaburi Meteorological Station,1304310,pm25 µg/m³,14.022376,99.536195,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225606,Kanchanaburi Meteorological Station,16312708,pm25 µg/m³,14.022376,99.536195,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225607,"Environment Agency Section 14, Surat Thani",1304355,pm25 µg/m³,9.126017,99.325145,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225607,"Environment Agency Section 14, Surat Thani",16312673,pm25 µg/m³,9.126017,99.325145,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225609,Nakhonsawan Irrigation Project,16312777,pm25 µg/m³,15.68623,100.110556,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225609,Nakhonsawan Irrigation Project,1304122,pm25 µg/m³,15.68623,100.110556,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225610,"Bueng Kum District Office, Bangkok",1304211,pm25 µg/m³,13.785212,100.669183,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225610,"Bueng Kum District Office, Bangkok",16312602,pm25 µg/m³,13.785212,100.669183,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225611,Health Promotion Hospital Maptaput,16312683,pm25 µg/m³,12.70865,101.1659833,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225611,Health Promotion Hospital Maptaput,1305053,pm25 µg/m³,12.70865,101.1659833,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225612,Bansomdejchaopraya Rajabhat University,1304328,pm25 µg/m³,13.732846,100.487662,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225613,Lat Krabang Hospital,16312728,pm25 µg/m³,13.72205,100.784069,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225613,Lat Krabang Hospital,1304281,pm25 µg/m³,13.72205,100.784069,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225614,Tha phra Intersection,16312924,pm25 µg/m³,13.729431,100.474373,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225614,Tha phra Intersection,1305020,pm25 µg/m³,13.729431,100.474373,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225615,"Meteorological stations, Nakhon Phanom",1304331,pm25 µg/m³,17.412345,104.7786123,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225615,"Meteorological stations, Nakhon Phanom",16345945,pm25 µg/m³,17.412345,104.7786123,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225616,Mukdahan Provincial Hall,1304327,pm25 µg/m³,16.54637,104.72597,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225617,"Suan Luang District Office, Bangkok",16312911,pm25 µg/m³,13.731051,100.651705,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225617,"Suan Luang District Office, Bangkok",1304343,pm25 µg/m³,13.731051,100.651705,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225618,Provincial Office for Natural Resources and Environment Sakon Nakhon,1304144,pm25 µg/m³,17.157502,104.131043,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225619,"Don Mueng District Office, Bangkok",1304237,pm25 µg/m³,13.910986,100.594877,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225619,"Don Mueng District Office, Bangkok",16312666,pm25 µg/m³,13.910986,100.594877,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225620,Na Phralan Police Station,1304135,pm25 µg/m³,14.685833,100.87199599999998,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225620,Na Phralan Police Station,16312771,pm25 µg/m³,14.685833,100.87199599999998,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225621,Thon Buri Market Sanam Luang 2,1304323,pm25 µg/m³,13.746257,100.355099,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225621,Thon Buri Market Sanam Luang 2,16312938,pm25 µg/m³,13.746257,100.355099,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225622,"Huai Khwang District Office, Bangkok",16312701,pm25 µg/m³,13.77682,100.579543,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225622,"Huai Khwang District Office, Bangkok",1304203,pm25 µg/m³,13.77682,100.579543,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225623,Environmental Office 8 ratchaburi,16312674,pm25 µg/m³,13.52344,99.814082,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225623,Environmental Office 8 ratchaburi,1304360,pm25 µg/m³,13.52344,99.814082,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225624,Odeon Circus,1304435,pm25 µg/m³,13.737136,100.512734,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225624,Odeon Circus,16312811,pm25 µg/m³,13.737136,100.512734,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225625,"City Hall, Satun",1304232,pm25 µg/m³,6.624747,100.06615900000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225625,"City Hall, Satun",16312655,pm25 µg/m³,6.624747,100.06615900000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225626,"Non-Formal Education Centre, Mea Sot",16312787,pm25 µg/m³,16.734413,98.566961,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225626,"Non-Formal Education Centre, Mea Sot",1304278,pm25 µg/m³,16.734413,98.566961,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225627,"Municipality Office, Sukhothai",1304225,pm25 µg/m³,17.014167,99.821667,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225628,"Government Complex, Rayong",1305269,pm25 µg/m³,12.7066,101.18055,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225628,"Government Complex, Rayong",16312678,pm25 µg/m³,12.7066,101.18055,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225629,Department of Disease Control,1304077,pm25 µg/m³,13.852778,100.529444,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225630,"Meteorology Center, Phrae",16312754,pm25 µg/m³,18.1283666,100.16243330000002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225630,"Meteorology Center, Phrae",1304063,pm25 µg/m³,18.1283666,100.16243330000002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225631,National Economic and Social Development Council Office,1304293,pm25 µg/m³,13.756281,100.514267,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225631,National Economic and Social Development Council Office,16312779,pm25 µg/m³,13.756281,100.514267,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225632,"Chomthong District Office, Bangkok",16312649,pm25 µg/m³,13.677757,100.483861,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225632,"Chomthong District Office, Bangkok",1304130,pm25 µg/m³,13.677757,100.483861,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225633,Siam University,16312893,pm25 µg/m³,13.718689,100.45391,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225633,Siam University,1304192,pm25 µg/m³,13.718689,100.45391,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225634,"Rat Burana District Office,  Bangkok",16312864,pm25 µg/m³,13.6821364,100.5060513,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225634,"Rat Burana District Office,  Bangkok",1304054,pm25 µg/m³,13.6821364,100.5060513,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225635,"Wang Thonglang District Office, Bangkok",16312945,pm25 µg/m³,13.778981,100.622294,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225635,"Wang Thonglang District Office, Bangkok",1304123,pm25 µg/m³,13.778981,100.622294,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225636,Khao Noi Fire Station,1304300,pm25 µg/m³,14.526343,100.926047,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225636,Khao Noi Fire Station,16312718,pm25 µg/m³,14.526343,100.926047,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225637,South Bangkok Power Plant,1304404,pm25 µg/m³,13.618,100.5562,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225638,Samyan Mitrtown,1304216,pm25 µg/m³,13.733136,100.52829,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225638,Samyan Mitrtown,16312886,pm25 µg/m³,13.733136,100.52829,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225639,"City Hall, Narathiwat",1304162,pm25 µg/m³,6.426853,101.823388,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225639,"City Hall, Narathiwat",16312653,pm25 µg/m³,6.426853,101.823388,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225640,Library under King Taksin Bridge,16312735,pm25 µg/m³,13.719705,100.508782,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225640,Library under King Taksin Bridge,1304353,pm25 µg/m³,13.719705,100.508782,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225641,"Din Dang, Bangkok",1304357,pm25 µg/m³,13.7619223,100.558606,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225641,"Din Dang, Bangkok",16312664,pm25 µg/m³,13.7619223,100.558606,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225642,"Bang Phlat District Office, Bangkok",16312587,pm25 µg/m³,13.793965,100.504956,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225642,"Bang Phlat District Office, Bangkok",1304146,pm25 µg/m³,13.793965,100.504956,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225643,Bangkok University Rangsit Campus,1304380,pm25 µg/m³,14.03742,100.605216,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225643,Bangkok University Rangsit Campus,16312591,pm25 µg/m³,14.03742,100.605216,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225644,Suphan Buri Provincial Central Stadium,1304240,pm25 µg/m³,14.476214,100.086095,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225644,Suphan Buri Provincial Central Stadium,16312917,pm25 µg/m³,14.476214,100.086095,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225645,National Housing Authority Bangplee,1304420,pm25 µg/m³,13.5705,100.7862867,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225646,Provincial Waterworks Authority Mae Moh,16312858,pm25 µg/m³,18.2826333,99.6598166,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225646,Provincial Waterworks Authority Mae Moh,1304316,pm25 µg/m³,18.2826333,99.6598166,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225647,"Phra Nakhon District Office, Bangkok",1304340,pm25 µg/m³,13.76415,100.499077,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225648,"Natural Resources and Environment Office, Mae Hongson",16312786,pm25 µg/m³,19.30455,97.97165,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225648,"Natural Resources and Environment Office, Mae Hongson",1304178,pm25 µg/m³,19.30455,97.97165,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225649,"OTOP Center, Ubon Ratchathani",16312810,pm25 µg/m³,15.245413,104.846219,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225649,"OTOP Center, Ubon Ratchathani",1304375,pm25 µg/m³,15.245413,104.846219,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225650,The Government Public Relations Department,1304152,pm25 µg/m³,13.783185,100.540489,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225651,"Saphan Sung District Office, Bangkok",1304179,pm25 µg/m³,13.768892,100.685743,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225651,"Saphan Sung District Office, Bangkok",16312888,pm25 µg/m³,13.768892,100.685743,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225652,Public Park to commemorate the sixth anniversary of His Majesty the King,1304082,pm25 µg/m³,13.697252,100.497185,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225652,Public Park to commemorate the sixth anniversary of His Majesty the King,16312859,pm25 µg/m³,13.697252,100.497185,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225653,Chokchai Police Station,1304128,pm25 µg/m³,13.7954248,100.5930298,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225654,"Environment Agency Section 13, Chonburi",16312672,pm25 µg/m³,13.35461667,100.9792167,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225654,"Environment Agency Section 13, Chonburi",1304209,pm25 µg/m³,13.35461667,100.9792167,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225655,"Meteorological Staions, Lamphun",16312744,pm25 µg/m³,18.567194,99.038639,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225655,"Meteorological Staions, Lamphun",1304245,pm25 µg/m³,18.567194,99.038639,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225656,"Bang Sue District Office, Bangkok",1304256,pm25 µg/m³,13.809596,100.537883,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225656,"Bang Sue District Office, Bangkok",16312588,pm25 µg/m³,13.809596,100.537883,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225657,"child development centers, Betong",1304088,pm25 µg/m³,5.763873,101.067903,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225657,"child development centers, Betong",16312951,pm25 µg/m³,5.763873,101.067903,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225658,Bueng Kan District Office,1304193,pm25 µg/m³,18.358249,103.652055,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225659,Kalasin Provincial Natural Resources and Environment Office,1304086,pm25 µg/m³,16.442904,103.535221,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225660,"Chaloem Phrakiat Rama 9 Park Min buri, Bangkok",1304438,pm25 µg/m³,13.813578,100.73208,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225660,"Chaloem Phrakiat Rama 9 Park Min buri, Bangkok",16312635,pm25 µg/m³,13.813578,100.73208,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225661,"Nong Thin Public Park, Nong Khai",16312806,pm25 µg/m³,17.877479999999995,102.728925,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225661,"Nong Thin Public Park, Nong Khai",1304186,pm25 µg/m³,17.877479999999995,102.728925,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225663,Buriram City Hall,1304140,pm25 µg/m³,14.945452000000001,103.10589600000002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225663,Buriram City Hall,16312613,pm25 µg/m³,14.945452000000001,103.10589600000002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225664,Chaiyaphum City Hall,1304361,pm25 µg/m³,15.808061,102.031993,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225666,"Phayao Provincial, Phayao",1304315,pm25 µg/m³,19.200226,99.893048,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225666,"Phayao Provincial, Phayao",16312826,pm25 µg/m³,19.200226,99.893048,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225667,Mahaisawan Intersection,16312742,pm25 µg/m³,13.70515,100.48465,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225667,Mahaisawan Intersection,1304114,pm25 µg/m³,13.70515,100.48465,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225668,"Bang Kapi District Office, Bangkok",1304426,pm25 µg/m³,13.766478,100.647785,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225668,"Bang Kapi District Office, Bangkok",16312581,pm25 µg/m³,13.766478,100.647785,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225669,"City Hall, Chiangmai",16312652,pm25 µg/m³,18.840732,98.96978,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225669,"City Hall, Chiangmai",1304220,pm25 µg/m³,18.840732,98.96978,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225671,"Khlong Sam Wa District Office, Bangkok",1304229,pm25 µg/m³,13.859911,100.704002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225671,"Khlong Sam Wa District Office, Bangkok",16312720,pm25 µg/m³,13.859911,100.704002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225672,Suan Sayam-Ram Intra Intersection,1304078,pm25 µg/m³,13.813844,100.686594,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225672,Suan Sayam-Ram Intra Intersection,16312914,pm25 µg/m³,13.813844,100.686594,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225673,National Housing Authority Dindaeng,16312781,pm25 µg/m³,13.762516670000002,100.5502,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225673,National Housing Authority Dindaeng,1304204,pm25 µg/m³,13.762516670000002,100.5502,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225674,"Municipality Office, Nan",16312769,pm25 µg/m³,18.7888833,100.7763166,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225674,"Municipality Office, Nan",1304191,pm25 µg/m³,18.7888833,100.7763166,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225675,Meteorological Station Lopburi,16312748,pm25 µg/m³,14.800032,100.62854800000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225675,Meteorological Station Lopburi,1304332,pm25 µg/m³,14.800032,100.62854800000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225676,Ayutthaya Witthayalai School,1304217,pm25 µg/m³,14.35222,100.565325,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225676,Ayutthaya Witthayalai School,16312578,pm25 µg/m³,14.35222,100.565325,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225677,"Lak Si District Office, Bangkok",1304185,pm25 µg/m³,13.887395,100.579247,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225677,"Lak Si District Office, Bangkok",16312727,pm25 µg/m³,13.887395,100.579247,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225678,"Bang Khae District Office, Bangkok",16312583,pm25 µg/m³,13.696314,100.409049,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225678,"Bang Khae District Office, Bangkok",1304073,pm25 µg/m³,13.696314,100.409049,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225679,"Dusit District Office, Bangkok",1304309,pm25 µg/m³,13.776664,100.520982,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225679,"Dusit District Office, Bangkok",16312668,pm25 µg/m³,13.776664,100.520982,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225680,Sri Nakhon Khuean Khan Park,1304363,pm25 µg/m³,13.696681,100.563631,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225681,"Soi Sukhumwit 63 Roadside Wattana, Bangkok",16312902,pm25 µg/m³,13.722096,100.584559,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225681,"Soi Sukhumwit 63 Roadside Wattana, Bangkok",1304248,pm25 µg/m³,13.722096,100.584559,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225682,King Mongkut's University of Technology Thonburi,1304111,pm25 µg/m³,13.651004,100.496673,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225682,King Mongkut's University of Technology Thonburi,16312723,pm25 µg/m³,13.651004,100.496673,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225683,"Nong Chok District Office, Bangkok",16312800,pm25 µg/m³,13.855362,100.86267,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225683,"Nong Chok District Office, Bangkok",1304139,pm25 µg/m³,13.855362,100.86267,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225684,Army Apartment Sam Sen,16312575,pm25 µg/m³,13.783554,100.5344645,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225684,Army Apartment Sam Sen,1304399,pm25 µg/m³,13.783554,100.5344645,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225685,National Housing  Huaykwang,1304097,pm25 µg/m³,13.77553,100.569195,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225686,Highway NO.3902 km.13 +600,1304349,pm25 µg/m³,13.636514,100.414262,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225686,Highway NO.3902 km.13 +600,16312694,pm25 µg/m³,13.636514,100.414262,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225687,"Provincial Health Office, Loei",1304338,pm25 µg/m³,17.452765,101.728715,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225688,"Ratchathewi District Office, Bangkok",16312866,pm25 µg/m³,13.7590851,100.5345788,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225688,"Ratchathewi District Office, Bangkok",1304305,pm25 µg/m³,13.7590851,100.5345788,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225689,Phutthamonthon 1 - Borommaratchachonnani Intersection,1304065,pm25 µg/m³,13.780778,100.426727,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225689,Phutthamonthon 1 - Borommaratchachonnani Intersection,16312843,pm25 µg/m³,13.780778,100.426727,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225690,Agricultural Office,1304087,pm25 µg/m³,12.67155,101.2758667,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+225691,"Ma Charean Roadside, Petcha Kasem 8, Nong Khaem",1304326,pm25 µg/m³,13.705582,100.343164,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225691,"Ma Charean Roadside, Petcha Kasem 8, Nong Khaem",16312738,pm25 µg/m³,13.705582,100.343164,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225692,"Health Promotion Hospital Sob Pad, Lampang",16312687,pm25 µg/m³,18.2508166,99.76395,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225692,"Health Promotion Hospital Sob Pad, Lampang",1304247,pm25 µg/m³,18.2508166,99.76395,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225693,"Debaratana Vejjanukul Hospital, Mae Chaem",1304386,pm25 µg/m³,18.498333,98.379444,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+225693,"Debaratana Vejjanukul Hospital, Mae Chaem",16312656,pm25 µg/m³,18.498333,98.379444,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228541,"60th Anniversary Queen Sirikit Public Park, Loei",16312565,pm25 µg/m³,17.48462,101.732734,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228541,"60th Anniversary Queen Sirikit Public Park, Loei",1317087,pm25 µg/m³,17.48462,101.732734,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228542,"Nong Prajak Public Park, Udon Thani",16312802,pm25 µg/m³,17.414174,102.78092600000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228542,"Nong Prajak Public Park, Udon Thani",1317103,pm25 µg/m³,17.414174,102.78092600000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228543,"72nd Anniversary King Bhumibol Public Park, Uttaradit",1317108,pm25 µg/m³,17.631351999999996,100.09896000000002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228543,"72nd Anniversary King Bhumibol Public Park, Uttaradit",16312568,pm25 µg/m³,17.631351999999996,100.09896000000002,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228544,"Meteorological stations, Sakon Nakhon",16312753,pm25 µg/m³,17.15662,104.13321599999999,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228544,"Meteorological stations, Sakon Nakhon",1317093,pm25 µg/m³,17.15662,104.13321599999999,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228627,"Polytechnic College, Trang",16312848,pm25 µg/m³,7.570238000000001,99.58874300000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+228627,"Polytechnic College, Trang",1317584,pm25 µg/m³,7.570238000000001,99.58874300000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+229077,Suvarnabhumi Airport Free Zone,1319695,pm25 µg/m³,13.702778,100.75,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+229131,King Kaew Temple,1320880,pm25 µg/m³,13.676111,100.715,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+229190,Grand Monaco Village,1320292,pm25 µg/m³,13.672332,100.698602,TH,AirNow,Unknown Governmental Organization,Government Monitor,True
+229191,Lalin Greenville Village,1320288,pm25 µg/m³,13.702383,100.698808,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+270250,Phetbura garden,16312830,pm25 µg/m³,16.418417,101.15655600000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+270250,Phetbura garden,1559904,pm25 µg/m³,16.418417,101.15655600000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+270292,Ban Pa Bong School,1560105,pm25 µg/m³,19.336111,98.954444,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+270695,"Taksin Stadium, Muang Tak Municipality",1561905,pm25 µg/m³,16.883611,99.123056,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+270702,Bueng Planchai,16312607,pm25 µg/m³,16.057448,103.651056,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+270702,Bueng Planchai,1561932,pm25 µg/m³,16.057448,103.651056,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+270780,Singburi City Hall,1562240,pm25 µg/m³,14.897778,100.411944,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+270824,"Ban Pang, Bang Sai, Phra Nakhon Si Ayutthaya",1562402,pm25 µg/m³,14.235833,100.485556,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+277658,"Natural Resources and Environment Office, Sing Buri",1581485,pm25 µg/m³,14.889702,100.397979,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+278507,Mae Sariang District Public Health Office,1584677,pm25 µg/m³,18.163056,97.917778,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+278637,Chiang Khong District Public Health Office,1585224,pm25 µg/m³,20.258611,100.407778,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+289762,Sisaket City Hall,1650115,pm25 µg/m³,15.11879,104.322607,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+290775,Amnat Charoen Clock Tower,1655532,pm25 µg/m³,15.863523,104.627401,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+308183,Kaeng Krachan National Park,1748664,pm25 µg/m³,12.884444,99.632778,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+319752,Si Sawat District Office,1815514,pm25 µg/m³,14.600278,99.114444,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+351927,Le Thai Community Park,16312732,pm25 µg/m³,17.006058999999997,99.81927,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+351927,Le Thai Community Park,2000291,pm25 µg/m³,17.006058999999997,99.81927,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+353740,Chanthaburi Meteorological Station,2007834,pm25 µg/m³,12.6095704,102.1040804,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+353740,Chanthaburi Meteorological Station,16312640,pm25 µg/m³,12.6095704,102.1040804,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+353741,"Phichit Provincial , Phichit",16312836,pm25 µg/m³,16.442554,100.322756,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+353741,"Phichit Provincial , Phichit",2007819,pm25 µg/m³,16.442554,100.322756,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+353742,Mukdahan Provincial Stadium,2007836,pm25 µg/m³,16.54257,104.7192,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+353742,Mukdahan Provincial Stadium,16312762,pm25 µg/m³,16.54257,104.7192,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+353743,Sirichit Thai Cultural Conservation Ground,2007829,pm25 µg/m³,16.475374,99.525425,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+353743,Sirichit Thai Cultural Conservation Ground,16312895,pm25 µg/m³,16.475374,99.525425,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+354124,Hua Hin Weather Station Prachuap Khiri Khan Meteorological Station,2009817,pm25 µg/m³,12.577835,99.953663,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+354124,Hua Hin Weather Station Prachuap Khiri Khan Meteorological Station,16312698,pm25 µg/m³,12.577835,99.953663,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368390,Thawee Wanarom Park,2076218,pm25 µg/m³,13.7435329,100.3526893,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368390,Thawee Wanarom Park,16312931,pm25 µg/m³,13.7435329,100.3526893,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368391,Suan Luang Rama IX,16312912,pm25 µg/m³,13.6881393,100.6579657,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368391,Suan Luang Rama IX,2076229,pm25 µg/m³,13.6881393,100.6579657,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368392,Ramintra Sports Park,16312862,pm25 µg/m³,13.8778763,100.6207085,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368392,Ramintra Sports Park,2076223,pm25 µg/m³,13.8778763,100.6207085,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368393,Rommani Thungsikan Park,2076221,pm25 µg/m³,13.9288678,100.5684666,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368393,Rommani Thungsikan Park,16312874,pm25 µg/m³,13.9288678,100.5684666,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368394,Lumpini park,2076227,pm25 µg/m³,13.732225,100.5448381,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368394,Lumpini park,16312736,pm25 µg/m³,13.732225,100.5448381,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368395,Thonburirom Park,16312940,pm25 µg/m³,13.6502295,100.4909771,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368395,Thonburirom Park,2076215,pm25 µg/m³,13.6502295,100.4909771,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368396,Queen Sirikit Park,16312860,pm25 µg/m³,13.8055472,100.5488338,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368396,Queen Sirikit Park,2076225,pm25 µg/m³,13.8055472,100.5488338,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368397,Rama VIII Park,16312861,pm25 µg/m³,13.7693437,100.4945337,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368397,Rama VIII Park,2076216,pm25 µg/m³,13.7693437,100.4945337,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368398,Santiphap Park,2076230,pm25 µg/m³,13.7631081,100.541407,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+368399,Benjakitti Park,2076232,pm25 µg/m³,13.7328791,100.5600172,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368399,Benjakitti Park,16312596,pm25 µg/m³,13.7328791,100.5600172,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368400,"Bang Kho Laem District Office, Bangkok (Mobile)",2076219,pm25 µg/m³,13.69304,100.50244,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+368401,Nong Chok Park,2076217,pm25 µg/m³,13.855656,100.8585539,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368401,Nong Chok Park,16312801,pm25 µg/m³,13.855656,100.8585539,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368402,Serithai Park,16312892,pm25 µg/m³,13.7855673,100.6733359,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368402,Serithai Park,2076231,pm25 µg/m³,13.7855673,100.6733359,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368403,Chatuchak Park,2076226,pm25 µg/m³,13.802546,100.5509191,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368403,Chatuchak Park,16312642,pm25 µg/m³,13.802546,100.5509191,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368404,"60th Anniversary of Queen Sirikit Park ,Kheha Romklao Road, Lat Krabang, Bangkok",16312566,pm25 µg/m³,13.7631141,100.7302101,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368404,"60th Anniversary of Queen Sirikit Park ,Kheha Romklao Road, Lat Krabang, Bangkok",2076214,pm25 µg/m³,13.7631141,100.7302101,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368405,Bang Khae Phirom Park,2076222,pm25 µg/m³,13.6863478,100.3844036,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368405,Bang Khae Phirom Park,16312584,pm25 µg/m³,13.6863478,100.3844036,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368406,80th Anniversary Commemoration Park,16312569,pm25 µg/m³,13.7716446,100.4681128,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368406,80th Anniversary Commemoration Park,2076224,pm25 µg/m³,13.7716446,100.4681128,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368407,Wacchirabenchatat Park,2076220,pm25 µg/m³,13.8118516,100.5535825,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368407,Wacchirabenchatat Park,16312944,pm25 µg/m³,13.8118516,100.5535825,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368408,Phra Nakhon Park,16312841,pm25 µg/m³,13.7201042,100.7807077,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368408,Phra Nakhon Park,2076228,pm25 µg/m³,13.7201042,100.7807077,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368485,Benchasiri Park,2076618,pm25 µg/m³,13.7304916,100.5684634,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+368485,Benchasiri Park,16312595,pm25 µg/m³,13.7304916,100.5684634,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+385742,Chaloem Phra Kiat Water Park,16312627,pm25 µg/m³,14.606306,100.453589,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+385742,Chaloem Phra Kiat Water Park,2158912,pm25 µg/m³,14.606306,100.453589,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+387511,Wiang Subdistrict Disaster Prevention and Mitigation Center,2166412,pm25 µg/m³,20.2575,100.4025,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+387511,Wiang Subdistrict Disaster Prevention and Mitigation Center,16312949,pm25 µg/m³,20.2575,100.4025,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+387660,Mueang Na Subdistrict Municipality Office,16312760,pm25 µg/m³,19.593889,98.961667,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+387660,Mueang Na Subdistrict Municipality Office,2167058,pm25 µg/m³,19.593889,98.961667,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+388656,"Chiang Mai Provincial Administrative Organization Office, Intersection (Southern Area)",2171611,pm25 µg/m³,18.175,98.630833,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+388962,Li District Office,16312734,pm25 µg/m³,17.802222,98.949722,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+388962,Li District Office,2172925,pm25 µg/m³,17.802222,98.949722,TH,Air4Thai,Unknown Governmental Organization,Government Monitor; Government Monitor,True
+414787,Tha Yang Subdistrict Municipality Office,2308994,pm25 µg/m³,12.965556,99.891944,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+418809,National Housing Authority Klongchan,2332866,pm25 µg/m³,13.76121,100.517035,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+418810,"Southeast Asia University, Bangkok (Mobile)",2332865,pm25 µg/m³,13.70735,100.35391,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+429157,Nong Bua Lamphu Meteorological Station,2396740,pm25 µg/m³,17.226111,102.424167,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+429261,Tak Provincial Administrative Organization,2397399,pm25 µg/m³,16.877778,99.139722,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+497972,Phatong Municipality,2792626,pm25 µg/m³,6.868055,100.465385,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+497973,Songkhla Municipality Office,2792627,pm25 µg/m³,7.207028,100.597014,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+500068,Pai Municipality,2806242,pm25 µg/m³,19.3591522,98.4364794,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+523937,Tha Kham Municipality Office,2929646,pm25 µg/m³,18.202222,98.597222,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+808649,"Natural Resources and Environment Office, Chainat",4410573,pm25 µg/m³,15.173056,100.126944,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+921162,Suan Sayam-Ram Intra Intersection,5079767,pm25 µg/m³,13.799395,100.682464,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1172475,"Natural Resource and Environment, Phatthalung",6455630,pm25 µg/m³,7.614396,100.113766,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1174411,Ban Padang Community School,6458076,pm25 µg/m³,6.39,100.19,MY,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1180402,Ban Padang Community School,6467917,pm25 µg/m³,6.666143963588895,100.32734858721086,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1180409,Provincial Natural Resources and Environmental Office,6467919,pm25 µg/m³,6.890639752808323,101.25106087293467,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1180415,Provincial Natural Resources and Environmental Office,9657975,pm25 µg/m³,6.890639752808323,101.25106087293467,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1236360,"Bungkan School 1, Mueang, Bungkan",6530416,pm25 µg/m³,18.389836926387506,103.66396050996747,LA,N/A,Unknown Governmental Organization,Government Monitor,True
+1285357,SPARTAN - Vietnam Acad. Sci.,6566240,pm25 µg/m³,21.0478,105.8,VN,SPARTAN Network,Unknown Governmental Organization,Government Monitor,True
+1290682,Ranong Municipal office,6574439,pm25 µg/m³,9.961849,98.639341,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1299596,Phangnga Provincial Government Center,6589543,pm25 µg/m³,8.424964,98.528719,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1650686,Mueang Chaiyaphum Municipality Stadium,7093737,pm25 µg/m³,15.81148,102.02281,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1650687,Phaya Thaen Public Park,7093739,pm25 µg/m³,15.783860999999998,104.154639,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1650688,SINGBURI SCHOOL,7093743,pm25 µg/m³,14.8933874,100.4130773,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1785688,Amnat Charoen Municipality,7338554,pm25 µg/m³,15.875800000000002,104.6223,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1785690,KAENG DON KLANG PARK,7338537,pm25 µg/m³,16.4436,103.51299999999999,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1785691,Nakhon Nayok Municipality Public Health Service Center,7338558,pm25 µg/m³,14.204219999999998,101.21509,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1785692,Nong Bueng Kan Park,7338540,pm25 µg/m³,18.362008,103.65977000000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1785693,Sisaket Meteorological Center,7338556,pm25 µg/m³,15.086836199999999,104.32647460000001,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1785694,Surin Meteorological Center,7338551,pm25 µg/m³,14.8762222,103.4965833,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1861095,Wiang Subdistrict Disaster Prevention and Mitigation Center,7431257,pm25 µg/m³,18.804894,98.900698,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1864570,"Provincial Electricity Authority, Hot District Branch",7434913,pm25 µg/m³,18.172495,98.61069,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1873401,Sisaket Meteorological Center,7443668,pm25 µg/m³,15.087087,104.326787,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1896059,Pai Airport,7467824,pm25 µg/m³,19.364055,98.436205,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1896763,Pai Airport,7468522,pm25 µg/m³,19.369637,98.43596,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1993935,Nong Bua Lamphu Provincial Administrative Organization,7576283,pm25 µg/m³,17.193824,102.4585009,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+1993936,"Somdet Phra Srinagarindra Park, Roi Et",7576284,pm25 µg/m³,16.057537,103.651372,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2088223,Government House,7684604,pm25 µg/m³,13.763911018899341,100.51289004935268,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2132593,Phetchaburi Municipality,7736413,pm25 µg/m³,13.11249031,99.9461325,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2161290,An Khánh,7772012,pm25 µg/m³,21.0024,105.7181,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161291,Cầu Diễn,7772023,pm25 µg/m³,21.0398,105.7652,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161292,"Số 46, phố Lưu Quang Vũ",7772032,pm25 µg/m³,21.0152,105.7999,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161293,Chúc Sơn,7772046,pm25 µg/m³,20.92,105.7123,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161294,Cung thiếu nhi,7772104,pm25 µg/m³,21.0284,105.8556,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161295,Đầm Trấu,7771992,pm25 µg/m³,21.0119,105.8644,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161296,Đào Duy Từ,7772040,pm25 µg/m³,21.0354,105.8529,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161297,Đội Bình,7771980,pm25 µg/m³,20.6486,105.8204,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161298,Đông Kinh Nghĩa Thục,7772025,pm25 µg/m³,21.032,105.8515,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161299,Hàng Đậu,7771996,pm25 µg/m³,21.0399,105.8473,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161300,Hoàn Kiếm,7771988,pm25 µg/m³,21.0263,105.8515,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161301,Khương Trung,7772073,pm25 µg/m³,20.9949,105.8167,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161302,Kim Bài,7771977,pm25 µg/m³,20.858,105.7656,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161303,Kim Liên,7772038,pm25 µg/m³,21.0074,105.8358,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161304,Lê Trực,7772096,pm25 µg/m³,21.0327,105.8329,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161305,Liên Quan,7772053,pm25 µg/m³,21.056,105.578,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161306,Minh Khai - Bắc Từ Liêm,7772087,pm25 µg/m³,21.05,105.74,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161307,Mỹ Đình,7771998,pm25 µg/m³,21.0269,105.7731,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161308,Phạm Văn Đồng,7772088,pm25 µg/m³,21.05,105.782,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161309,Pháp Vân,7772016,pm25 µg/m³,20.9481,105.8493,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161310,Quảng Phú Cầu,7772109,pm25 µg/m³,20.7793,105.7851,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161311,Sài Sơn,7772076,pm25 µg/m³,21.0167,105.6478,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161312,Sóc Sơn,7772037,pm25 µg/m³,21.2575,105.8514,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161313,Tân Mai,7772003,pm25 µg/m³,20.9883,105.8549,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161314,Tây Hồ Tây,7771972,pm25 µg/m³,21.0563,105.7974,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161315,Tây Mỗ,7772004,pm25 µg/m³,21.0058,105.7485,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161316,Thành Công,7772020,pm25 µg/m³,21.0197,105.8147,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161317,Thanh Xuân - Sóc Sơn,7772068,pm25 µg/m³,21.2287,105.7583,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161318,Tứ Liên,7772036,pm25 µg/m³,21.0639,105.8338,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161319,Vân Đình,7771984,pm25 µg/m³,20.7339,105.7703,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161320,Vân Hà,7772059,pm25 µg/m³,21.1476,105.9159,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161321,Văn Quán,7772099,pm25 µg/m³,20.972,105.7856,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161322,Võng La,7772079,pm25 µg/m³,21.1105,105.7605,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2161323,Xuân Mai,7772015,pm25 µg/m³,20.8994,105.5773,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+2523721,Prachinburi Provincial Public Health,7974213,pm25 µg/m³,14.053201,101.369361,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+2524053,Prachinburi Provincial Public Health,7974317,pm25 µg/m³,14.0449046434287,101.3689396242558,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+3008643,Chumchon Banpadang School,10203283,pm25 µg/m³,6.66638438023621,100.32726914385205,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+3047300,"Sports Stadium, Chumphon Province",10494201,pm25 µg/m³,10.495142389105824,99.18935409512319,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+3291325,Mae Sariang District Office,11468827,pm25 µg/m³,18.158912,97.93271,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+3337858,Health Promoting Hospital Khlong Sakae,11805825,pm25 µg/m³,14.499973,100.650785,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+3345301,Pramuan Suk Health Park,11862934,pm25 µg/m³,16.77283,103.29982399999999,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+3345345,Rayong Provincial Stadium,11863289,pm25 µg/m³,12.678917,101.234664,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+3347581,Pramuan Suk Health Park,11880411,pm25 µg/m³,16.177283,103.29982399999999,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+3368091,Land Development Station,12020149,pm25 µg/m³,13.520415,100.1506688,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+4946811,556 Nguyễn Văn Cừ,13502150,pm25 µg/m³,21.0491,105.8831,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+4946812,Công viên Nhân Chính - Khuất Duy Tiến,13502151,pm25 µg/m³,21.0031,105.79470000000002,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,13502154,pm25 µg/m³,21.0052,105.8418,VN,Hanoi Air Quality Monitoring Network,Unknown Governmental Organization,Government Monitor,True
+5554536,Chalermprakiat Rama IX Park,13952317,pm25 µg/m³,15.173475,100.132105,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+5554537,Chaloem Phrakiat Park Station 80th birthday celebration,13952323,pm25 µg/m³,15.384667000000002,100.024992,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+5554538,Pattani Provincial Forestry Center,13952328,pm25 µg/m³,6.890637,101.250888,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+5554539,Phatthalung Provincial Stadium,13952333,pm25 µg/m³,7.6156514,100.0480234,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6165738,Wat Thong Song Tham Child Development Center,14897793,pm25 µg/m³,14.420548,100.595312,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6167893,Ruean Prathap Station,14913690,pm25 µg/m³,16.666299,98.657489,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6167894,Tha Kham Municipality Office,14913693,pm25 µg/m³,18.752222,98.927778,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6167895,Tree planting station,14913694,pm25 µg/m³,16.663994,98.664641,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6176026,"iyachart Pattana School, under the royal patronage of Her Royal Highness Princess Maha Chakri Sirindhorn.",14973464,pm25 µg/m³,14.278780850523706,101.16093815767054,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6191210,hung Thale Luang Station,15087489,pm25 µg/m³,17.051112,99.806396,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6204072,Srinakharinwirot University,15182299,pm25 µg/m³,14.105929779420226,100.9851175092921,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6206887,Dairy Promotion Organization of Thailand,15210116,pm25 µg/m³,14.634513215336314,101.19161207791055,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6222090,The Supreme Artist Hall,15313819,pm25 µg/m³,14.071361045244474,100.69966420057868,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6230463,Wat Thipsukontharam,15380176,pm25 µg/m³,14.322590288904477,99.70350372440087,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6246375,Thap Luang Subdistrict Administrative Organization,15492808,pm25 µg/m³,15.103107950461235,99.62226751002622,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6251785,Guest House at King Naresuan the Great Camp,15533189,pm25 µg/m³,16.83715163121024,100.25910826690338,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6262229,Public Park to commemorate the sixth anniversary of His Majesty the King,15611068,pm25 µg/m³,13.685524189587932,100.51830028147444,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6266258,"Doi Tung Royal Palace, Mae Fah Luang District, Chiang Rai Province",15641438,pm25 µg/m³,20.28755518332941,99.81050726698746,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6266641,"Phaya Ngam Muang Auditorium, University of Phayao",15650108,pm25 µg/m³,19.029919816067558,99.89736003675418,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6273349,Artillery Officers Club of the 31st Artillery Battalion,15694264,pm25 µg/m³,14.884886999744845,100.6373358670088,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6277032,Wat Phra Pathom Chedi Ratchaworamahavihara,15722750,pm25 µg/m³,13.817360990710023,100.05771179582489,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6325480,Erawan National Park,16083420,pm25 µg/m³,14.374830537949412,99.14523682440188,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6326620,At Nong Lu Subdistrict Administrative Organization,16092003,pm25 µg/m³,15.195980066907032,98.46131696674739,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6374402,Hulachomklao Royal Military Academy.,16408878,pm25 µg/m³,14.301562019562708,101.16679487116414,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
+6397573,(Saohai Wimolwitthayanukul School.),16577897,pm25 µg/m³,14.547922866744255,100.85647317791022,TH,Air4Thai,Unknown Governmental Organization,Government Monitor,True
