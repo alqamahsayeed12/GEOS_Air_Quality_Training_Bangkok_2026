@@ -22,6 +22,7 @@ REQUIRED = [
     "data/module3/model_assets/max_min4.csv",
     "docs/index.html",
     "docs/presentation/day1_geos_training.html",
+    "docs/presentation/assets/animation.gif",
 ]
 FORBIDDEN_SOURCE = [
     "/Volumes/Personal2/",
@@ -81,7 +82,9 @@ for notebook_path in sorted((ROOT / "notebooks").glob("*.ipynb")):
 presentation = ROOT / "docs" / "presentation" / "day1_geos_training.html"
 if presentation.exists():
     html = presentation.read_text(encoding="utf-8", errors="ignore")
-    for reference in re.findall(r'(?:src|href)=["\']([^"\']+)', html):
+    linked_assets = re.findall(r'(?:src|href)=["\']([^"\']+)', html)
+    linked_assets += re.findall(r'url\(["\']?([^"\')]+)', html)
+    for reference in linked_assets:
         if reference.startswith(("http://", "https://", "#", "data:")):
             continue
         target = (presentation.parent / reference).resolve()
