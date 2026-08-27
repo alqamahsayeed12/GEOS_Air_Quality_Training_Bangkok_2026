@@ -70,6 +70,9 @@ predictors. Module 3 explicitly assigns fixed `0-1000 µg/m³` bounds to `PM25`,
 
 - Responsive GitHub Pages course portal
 - Interactive Day 1 HTML presentation
+- Interactive module roadmap presentation with notebook sections, checkpoints,
+  participant outputs, and the shared scientific quality contract
+- Finalized Day 1 presentation lock record with commit and SHA-256 checksum
 - 24-hour GEOS PM2.5 frames, hover values, and wind field
 - Animation, figures, logos, Leaflet velocity library, and notebook previews
 - Participant, instructor, API-key, troubleshooting, publishing, and licensing guides

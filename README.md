@@ -54,7 +54,7 @@ downscaled PM2.5 fields with ground observations.
 notebooks/          four ordered Colab notebooks
 data/module2/       station samples, compact GEOS files, evaluation table
 data/module3/       training sample, model assets, domain example
-docs/               course portal, presentation, participant guides
+docs/               course portal, science presentation, module roadmap, guides
 scripts/            package verification and provenance utilities
 outputs/            generated at run time and ignored by Git
 ```

@@ -2,6 +2,11 @@
 
 ## 2026.09.10
 
+- Lock the finalized Day 1 science presentation by commit and SHA-256 checksum.
+- Add a separate 12-page training roadmap covering every notebook section,
+  participant decision, checkpoint, output, and scientific invariant.
+- Add real Module 2 and Module 3 output figures to the roadmap and link it from
+  the course portal.
 - Reframe the visible Day 1 narrative around people, places, scientific evidence,
   and practical interpretation while preserving technical definitions and sources.
 - Remove the short blue underline beneath the centered navigation title.
