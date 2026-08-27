@@ -488,12 +488,11 @@
     .scale-insight strong { display: block; font-size: 15px; }
     .scale-insight span { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; line-height: 1.4; }
     .pm-case-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
-    .pm-case { position: relative; min-height: 258px; margin: 0; overflow: hidden; border-radius: 8px; background: #1b2429; box-shadow: 0 18px 42px rgba(29,29,31,.12); }
-    .pm-case img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-    .pm-case::after { content: ""; position: absolute; inset: 42% 0 0; background: linear-gradient(transparent,rgba(5,11,16,.88)); }
-    .pm-case figcaption { position: absolute; z-index: 1; right: 20px; bottom: 17px; left: 20px; color: white; }
-    .pm-case figcaption strong { display: block; font-size: 20px; line-height: 1.15; }
-    .pm-case figcaption span { display: block; margin-top: 5px; color: rgba(255,255,255,.78); font-size: 10px; line-height: 1.35; }
+    .pm-case { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: white; box-shadow: 0 18px 42px rgba(29,29,31,.12); }
+    .pm-case img { display: block; width: 100%; aspect-ratio: 8 / 5; object-fit: contain; background: #10171b; }
+    .pm-case figcaption { min-height: 72px; padding: 13px 16px 14px; color: var(--ink); border-top: 1px solid var(--line); }
+    .pm-case figcaption strong { display: block; font-size: 16px; line-height: 1.2; }
+    .pm-case figcaption span { display: block; margin-top: 5px; color: var(--muted); font-size: 10px; line-height: 1.35; }
     .pm-pathway { display: grid; grid-template-columns: repeat(4,1fr); margin-top: 24px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
     .pm-pathway-step { min-height: 158px; padding: 20px 24px; border-right: 1px solid var(--line); }
     .pm-pathway-step:last-child { border-right: 0; }
@@ -809,7 +808,7 @@
       .pm-scale-layout { grid-template-columns: 1fr; }
       .pm-scale-number { font-size: 108px; }
       .pm-case-gallery, .pm-pathway { grid-template-columns: 1fr; }
-      .pm-case { min-height: 240px; }
+      .pm-case { min-height: 0; }
       .pm-pathway-step, .pm-pathway-step:nth-child(2) { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
       .pm-pathway-step:last-child { border-bottom: 0; }
       .health-visual { min-height: 580px; }

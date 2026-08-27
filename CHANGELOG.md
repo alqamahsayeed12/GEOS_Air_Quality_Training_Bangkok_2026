@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.09.9
+
+- Preserve the complete NASA smoke/haze and dust scenes in the PM2.5 case-study
+  gallery instead of cropping them to wide frames.
+- Move case captions below the imagery so labels no longer obscure the maps.
+
 ## 2026.09.8
 
 - Add a Day 1 slide explaining primary and secondary PM2.5 formation through
