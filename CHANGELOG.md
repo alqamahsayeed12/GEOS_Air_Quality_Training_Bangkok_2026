@@ -2,6 +2,8 @@
 
 ## 2026.09.10
 
+- Reframe the visible Day 1 narrative around people, places, scientific evidence,
+  and practical interpretation while preserving technical definitions and sources.
 - Remove the short blue underline beneath the centered navigation title.
 - Remove navigation arrows and strengthen the visual emphasis of the centered
   current-page title relative to the previous and next page labels.
