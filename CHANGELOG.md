@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.09.8
+
+- Add a Day 1 slide explaining primary and secondary PM2.5 formation through
+  Southeast Asian smoke/haze and Asian dust case studies.
+- Connect local emissions to regional transport, visibility, radiation, cloud,
+  and deposition effects using attributed NASA MODIS imagery.
+
 ## 2026.09.7
 
 - Add the NSF NCAR atmospheric-process schematic to the Day 1 initial and

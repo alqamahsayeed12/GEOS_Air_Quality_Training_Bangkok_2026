@@ -487,6 +487,22 @@
     .scale-insight div { padding-top: 14px; border-top: 3px solid var(--accent); }
     .scale-insight strong { display: block; font-size: 15px; }
     .scale-insight span { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; line-height: 1.4; }
+    .pm-case-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
+    .pm-case { position: relative; min-height: 258px; margin: 0; overflow: hidden; border-radius: 8px; background: #1b2429; box-shadow: 0 18px 42px rgba(29,29,31,.12); }
+    .pm-case img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    .pm-case::after { content: ""; position: absolute; inset: 42% 0 0; background: linear-gradient(transparent,rgba(5,11,16,.88)); }
+    .pm-case figcaption { position: absolute; z-index: 1; right: 20px; bottom: 17px; left: 20px; color: white; }
+    .pm-case figcaption strong { display: block; font-size: 20px; line-height: 1.15; }
+    .pm-case figcaption span { display: block; margin-top: 5px; color: rgba(255,255,255,.78); font-size: 10px; line-height: 1.35; }
+    .pm-pathway { display: grid; grid-template-columns: repeat(4,1fr); margin-top: 24px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+    .pm-pathway-step { min-height: 158px; padding: 20px 24px; border-right: 1px solid var(--line); }
+    .pm-pathway-step:last-child { border-right: 0; }
+    .pm-pathway-step small { display: block; color: var(--accent); font-size: 9px; font-weight: 750; text-transform: uppercase; }
+    .pm-pathway-step strong { display: block; margin-top: 12px; color: var(--ink); font-size: 16px; line-height: 1.25; }
+    .pm-pathway-step span { display: block; margin-top: 7px; color: var(--muted); font-size: 11px; line-height: 1.42; }
+    .pm-pathway-step em { color: var(--ink); font-style: normal; font-weight: 700; }
+    .pm-scale-note { display: flex; gap: 12px; align-items: flex-start; margin-top: 17px; color: var(--muted); font-size: 12px; line-height: 1.4; }
+    .pm-scale-note b { flex: 0 0 auto; padding: 4px 7px; color: white; background: var(--orange); border-radius: 3px; font-size: 9px; text-transform: uppercase; }
     .health-visual { position: relative; min-height: 650px; overflow: hidden; border-radius: 8px; background: #eef3f5; box-shadow: 0 24px 58px rgba(0,0,0,.12); }
     .health-visual img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
     .health-callouts { position: absolute; top: 32px; right: 32px; width: min(345px,36%); padding: 4px 22px; background: rgba(255,255,255,.9); border-radius: 8px; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
@@ -751,6 +767,9 @@
       .geos-visual { min-height: 500px; }
       .coupling-layout { grid-template-columns: 1fr; }
       .atmos-process-figure { max-width: 720px; }
+      .pm-pathway { grid-template-columns: 1fr 1fr; }
+      .pm-pathway-step:nth-child(2) { border-right: 0; }
+      .pm-pathway-step:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
     }
     @media (max-width: 760px) {
       :root { --partner-header-height: 60px; }
@@ -789,6 +808,10 @@
       .control-band, .local-workflow { grid-template-columns: 1fr 1fr; }
       .pm-scale-layout { grid-template-columns: 1fr; }
       .pm-scale-number { font-size: 108px; }
+      .pm-case-gallery, .pm-pathway { grid-template-columns: 1fr; }
+      .pm-case { min-height: 240px; }
+      .pm-pathway-step, .pm-pathway-step:nth-child(2) { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+      .pm-pathway-step:last-child { border-bottom: 0; }
       .health-visual { min-height: 580px; }
       .health-callouts { top: auto; right: 14px; bottom: 14px; left: 14px; width: auto; }
       .health-caption { display: none; }
@@ -966,6 +989,34 @@
   <div class="source-strip">
     <a href="https://www.epa.gov/sites/default/files/2017-11/documents/pp_report_2003.pdf" target="_blank" rel="noopener">US EPA: particle-size comparison</a>
     <a href="https://www.who.int/publications/i/item/9789240034228" target="_blank" rel="noopener">WHO Global Air Quality Guidelines (2021)</a>
+  </div>
+</section>
+
+<section class="slide" id="pm25-sources-effects">
+  <div class="eyebrow">Formation, transport, and wider effects</div>
+  <h2>PM2.5 connects local sources to regional smoke, haze, and dust episodes.</h2>
+  <div class="pm-case-gallery">
+    <figure class="pm-case">
+      <img src="assets/nasa_seasia_smoke_haze_2005.webp" alt="NASA MODIS satellite image showing active fires and widespread smoke across northern Lao PDR, Thailand, Myanmar, Vietnam, and southern China">
+      <figcaption><strong>Smoke and haze over mainland Southeast Asia</strong><span>Red fire detections and gray smoke reveal many local burns merging into a regional plume. NASA Terra MODIS, 30 March 2005.</span></figcaption>
+    </figure>
+    <figure class="pm-case">
+      <img src="assets/nasa_asia_dust_2019.webp" alt="NASA MODIS satellite image showing Asian mineral dust lofted above clouds and transported by a large storm system">
+      <figcaption><strong>Asian dust lofted above the boundary layer</strong><span>Once mineral dust reaches faster free-tropospheric winds, its fine fraction can travel far beyond the source region. NASA Terra MODIS, 12 May 2019.</span></figcaption>
+    </figure>
+  </div>
+  <div class="pm-pathway" aria-label="PM2.5 local-to-regional pathway">
+    <div class="pm-pathway-step" style="--accent:#d84b2a"><small>01 · Local generation</small><strong>Combustion and wind create primary particles.</strong><span>Fires emit organic aerosol and black carbon. Strong winds lift exposed soil; only the <em>fine dust fraction</em> contributes to PM2.5.</span></div>
+    <div class="pm-pathway-step" style="--accent:#9a6a34"><small>02 · Atmospheric formation</small><strong>Gases react and condense onto particles.</strong><span>Oxidation of VOCs, SO₂, and NOₓ contributes to secondary organic aerosol, sulfate, nitrate, and ammonium.</span></div>
+    <div class="pm-pathway-step" style="--accent:#0071e3"><small>03 · Accumulation and transport</small><strong>Terrain and weather determine plume scale.</strong><span>Shallow mixing and valleys favor local buildup; winds and convection carry aged aerosol across provinces and national borders.</span></div>
+    <div class="pm-pathway-step" style="--accent:#248a3d"><small>04 · Effects beyond exposure</small><strong>Particles alter visibility and the Earth system.</strong><span>Haze reduces visibility; aerosols modify radiation and clouds; wet and dry deposition transfers material to land and water.</span></div>
+  </div>
+  <div class="pm-scale-note"><b>Scale</b><span>A source may be local, but the resulting PM2.5 episode is controlled by chemistry, boundary-layer depth, terrain, wind, convection, and precipitation. Regional evaluation is therefore essential for Lao PDR and neighboring countries.</span></div>
+  <div class="source-strip">
+    <a href="https://science.nasa.gov/earth/earth-observatory/fires-in-southeast-asia-2-14346/" target="_blank" rel="noopener">NASA: Southeast Asia fires and smoke</a>
+    <a href="https://earthobservatory.nasa.gov/images/145050/dust-swirls-over-asia" target="_blank" rel="noopener">NASA: Dust swirls over Asia</a>
+    <a href="https://earthobservatory.nasa.gov/features/Aerosols" target="_blank" rel="noopener">NASA: Aerosols, transport, and climate effects</a>
+    <a href="https://www2.acom.ucar.edu/campaigns/milagro" target="_blank" rel="noopener">NSF NCAR: Secondary aerosol and regional transport</a>
   </div>
 </section>
 
