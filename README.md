@@ -71,8 +71,8 @@ scalar, model, and presentation dependencies.
 - Module 1 uses live NASA and OpenAQ services when available, then switches to
   bundled, timestamp-preserving recovery snapshots if either service fails.
 - Modules 2 and 3 run entirely from committed data, scalars, and models.
-- GitHub Actions validates every change and runs a scheduled offline runtime
-  test that opens the NetCDFs and executes representative model predictions.
+- GitHub Actions validates every change, opens the bundled NetCDF/model assets,
+  and executes all four participant notebooks with deterministic recovery data.
 - Every packaged data and model file has a SHA-256 checksum in
   `data_manifest.csv`.
 

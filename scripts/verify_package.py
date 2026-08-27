@@ -20,7 +20,9 @@ REQUIRED = [
     "environment.yml",
     ".github/dependabot.yml",
     ".github/workflows/runtime-smoke.yml",
+    ".github/workflows/notebook-smoke.yml",
     "docs/MAINTENANCE.md",
+    "scripts/execute_notebooks_offline.py",
     "notebooks/00_module0_google_colab_setup.ipynb",
     "notebooks/01_module1_download_geos_fp.ipynb",
     "notebooks/02_module2_ground_stations_qaqc_geos25km_collocation.ipynb",
@@ -154,14 +156,22 @@ for notebook_path in sorted((ROOT / "notebooks").glob("*.ipynb")):
     source = "\n".join(
         "".join(cell.get("source", [])) for cell in notebook.get("cells", [])
     )
+    saved_outputs = json.dumps(
+        [cell.get("outputs", []) for cell in notebook.get("cells", [])],
+        ensure_ascii=False,
+    )
     for forbidden in FORBIDDEN_SOURCE:
         if forbidden in source:
             errors.append(f"Nonportable source in {notebook_path.name}: {forbidden}")
+        if forbidden in saved_outputs:
+            errors.append(f"Nonportable saved output in {notebook_path.name}: {forbidden}")
     if notebook_path.name == "01_module1_download_geos_fp.ipynb":
         for required_text in REQUIRED_MODULE1_SOURCE:
             if required_text not in source:
                 errors.append(f"Module 1 recovery logic is missing: {required_text}")
     for index, cell in enumerate(notebook.get("cells", [])):
+        if not cell.get("id"):
+            errors.append(f"Missing cell ID in {notebook_path.name} cell {index}")
         if cell.get("cell_type") != "code":
             continue
         code = "".join(cell.get("source", []))

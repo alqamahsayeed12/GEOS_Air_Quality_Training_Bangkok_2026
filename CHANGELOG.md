@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.09.3
+
+- Execute all four participant notebooks in a clean public-clone audit.
+- Add a scheduled GitHub Actions workflow that reruns every notebook with
+  bundled recovery data.
+- Add stable Jupyter cell IDs and reject workstation paths in saved outputs.
+
 ## 2026.09.2
 
 - Canonicalize packaged CSV files to LF so checksums are identical on macOS,
