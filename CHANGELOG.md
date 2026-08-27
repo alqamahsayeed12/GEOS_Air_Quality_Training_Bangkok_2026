@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026.09.4
+
+- Add the University of Alabama in Huntsville logo to the public course portal
+  with responsive desktop and mobile header sizing.
+
 ## 2026.09.3
 
 - Execute all four participant notebooks in a clean public-clone audit.
