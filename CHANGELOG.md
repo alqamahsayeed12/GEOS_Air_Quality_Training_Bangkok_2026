@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026.09.6
+
+- Revise the Day 1 presentation in a professional scientific register.
+- Replace conversational prompts and simplified slogans with precise language
+  on GEOS products, model coupling, PM2.5 health evidence, and evaluation.
+
 ## 2026.09.5
 
 - Shorten the Day 1 presentation to the overview, GEOS, PM2.5, local

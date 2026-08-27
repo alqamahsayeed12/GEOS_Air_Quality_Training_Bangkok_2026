@@ -826,9 +826,9 @@
   <div class="hero-copy">
     <div class="eyebrow">Bangkok | 7 September 2026</div>
     <h1>Introduction to GEOS</h1>
-    <p>Day 1 connects GEOS-FP concepts, PM2.5 variables, local evaluation, and a first reproducible hands-on workflow.</p>
+    <p>This session introduces NASA GEOS-FP, its aerosol and PM2.5 diagnostics, major sources of uncertainty, and the role of local performance evaluation.</p>
     <p class="small">Technical Training on GEOS Data for Air Quality Monitoring in Lao PDR</p>
-    <span class="hero-scroll">Explore the forecast</span>
+    <span class="hero-scroll">View the GEOS-FP forecast</span>
   </div>
 </section>
 
@@ -837,22 +837,22 @@
     <figure class="geos-visual">
       <img src="assets/nasa_geos_aerosols_2025.png" alt="NASA GEOS global aerosol simulation showing dust, sea salt, smoke, and sulfate">
       <figcaption class="geos-visual-copy">
-        <strong>A global observing-and-modeling system, updated continuously.</strong>
+        <strong>Global atmospheric analyses and forecasts informed by observations.</strong>
         <span>NASA GEOS aerosol visualization: sea salt (blue), dust (magenta), smoke (orange/red), sulfate (green).</span>
       </figcaption>
     </figure>
     <div>
       <div class="eyebrow">GEOS / GEOS-FP</div>
-      <h2>From observations to a physically consistent forecast.</h2>
+      <h2>GEOS-FP combines data assimilation with Earth-system modeling.</h2>
       <div class="system-flow" aria-label="GEOS-FP processing flow">
-        <div class="system-node"><b>1</b><div><strong>Observe</strong><span>Satellite, surface, aircraft, radiosonde, and other measurements describe the evolving atmosphere.</span></div></div>
-        <div class="system-node"><b>2</b><div><strong>Assimilate</strong><span>Data assimilation combines observations with a prior model state to form the analysis.</span></div></div>
-        <div class="system-node"><b>3</b><div><strong>Simulate</strong><span>The GEOS Earth-system framework advances meteorology, land, and aerosol processes together.</span></div></div>
-        <div class="system-node"><b>4</b><div><strong>Deliver</strong><span>GEOS-FP supplies near-real-time gridded analyses and forecasts for research and applications.</span></div></div>
+        <div class="system-node"><b>1</b><div><strong>Observations</strong><span>Satellite, surface, aircraft, and radiosonde measurements characterize the evolving atmospheric state.</span></div></div>
+        <div class="system-node"><b>2</b><div><strong>Data assimilation</strong><span>Observations are combined with a model background to produce a dynamically consistent analysis.</span></div></div>
+        <div class="system-node"><b>3</b><div><strong>Model integration</strong><span>The GEOS framework advances coupled meteorological, land-surface, and aerosol processes.</span></div></div>
+        <div class="system-node"><b>4</b><div><strong>Data production</strong><span>GEOS-FP provides near-real-time gridded analyses and forecasts for scientific and operational use.</span></div></div>
       </div>
-      <div class="term-line"><code>GEOS</code><span>The modeling and data-assimilation framework.</span></div>
-      <div class="term-line"><code>GEOS-FP</code><span>The near-real-time forward-processing analysis and forecast stream used today.</span></div>
-      <div class="term-line"><code>GEOS-CF</code><span>A composition-focused configuration; related, but not interchangeable with GEOS-FP.</span></div>
+      <div class="term-line"><code>GEOS</code><span>NASA's modeling and data-assimilation framework for the Earth system.</span></div>
+      <div class="term-line"><code>GEOS-FP</code><span>The near-real-time Forward Processing analysis and forecast product used in this assessment.</span></div>
+      <div class="term-line"><code>GEOS-CF</code><span>A composition-focused GEOS configuration with a different chemical scope and product specification.</span></div>
       <div class="source-strip">
         <a href="https://svs.gsfc.nasa.gov/5669/" target="_blank" rel="noopener">NASA SVS: GEOS aerosols (2025)</a>
         <a href="https://gmao.gsfc.nasa.gov/media/publications/zbly36ziNFDQeVqPhUoFbmYmvh/GEOS_5_FP_File_Specification_ON4v2_0_fqkxorzhgte_FgpliLt.pdf" target="_blank" rel="noopener">NASA GMAO: GEOS-FP file specification</a>
@@ -864,16 +864,16 @@
 
 <section class="slide" id="geos-products">
   <div class="eyebrow">One framework, several products</div>
-  <h2>Choose the product by time horizon and scientific question.</h2>
-  <div class="core-ribbon"><strong>GEOS core</strong><span>Observations + data assimilation + Earth-system model. The framework underneath the NASA products, not one fixed dataset.</span></div>
+  <h2>GEOS products differ in purpose, temporal coverage, and forecast horizon.</h2>
+  <div class="core-ribbon"><strong>GEOS framework</strong><span>Observations, data assimilation, and Earth-system modeling provide the common foundation; each product has a distinct configuration and data record.</span></div>
   <div class="spectrum-axis" aria-hidden="true"><span></span><div class="axis-track"><span>1980</span><span>1998</span><span>NOW</span><span>5 DAYS</span><span>9 MONTHS</span></div></div>
   <div class="spectrum-list" aria-label="GEOS products organized by temporal coverage">
-    <div class="spectrum-row"><div class="spectrum-name"><strong>MERRA-2</strong><span>What happened consistently?</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:0%;--width:53%;--accent:#248a3d"><strong>Retrospective reanalysis</strong><span>1980 → near present</span></div></div></div>
-    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-IT</strong><span>What supports retrieval teams?</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:18%;--width:35%;--accent:#06a7d8"><strong>Stable instrument analysis</strong><span>1998 → present</span></div></div></div>
-    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-FP</strong><span>What is happening now?</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:48%;--width:23%;--accent:#0071e3"><strong>Weather + aerosol operations</strong><span>hours → days</span></div></div></div>
-    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-CF</strong><span>Where will composition move?</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:48%;--width:34%;--accent:#7b61a8"><strong>Detailed composition forecast</strong><span>analysis + 5 days</span></div></div></div>
-    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-S2S-3</strong><span>What may happen weeks ahead?</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:65%;--width:35%;--accent:#e85d2a"><strong>Coupled ensemble outlook</strong><span>weeks → 9 months</span></div></div></div>
-    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-Chem</strong><span>Separate community chemistry model</span></div><div class="spectrum-track"><div class="spectrum-range external" style="--start:8%;--width:84%"><strong>Reads GEOS meteorology</strong><span>user-defined simulation</span></div></div></div>
+    <div class="spectrum-row"><div class="spectrum-name"><strong>MERRA-2</strong><span>Retrospective atmospheric reanalysis</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:0%;--width:53%;--accent:#248a3d"><strong>Consistent long-term record</strong><span>1980 → near present</span></div></div></div>
+    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-IT</strong><span>Instrument-team analysis</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:18%;--width:35%;--accent:#06a7d8"><strong>Stable retrieval support</strong><span>1998 → present</span></div></div></div>
+    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-FP</strong><span>Near-real-time analysis and forecast</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:48%;--width:23%;--accent:#0071e3"><strong>Meteorology and aerosols</strong><span>hours → days</span></div></div></div>
+    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-CF</strong><span>Atmospheric composition forecast</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:48%;--width:34%;--accent:#7b61a8"><strong>Detailed gas and aerosol composition</strong><span>analysis + 5 days</span></div></div></div>
+    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-S2S-3</strong><span>Subseasonal-to-seasonal prediction</span></div><div class="spectrum-track"><div class="spectrum-range" style="--start:65%;--width:35%;--accent:#e85d2a"><strong>Coupled ensemble prediction</strong><span>weeks → 9 months</span></div></div></div>
+    <div class="spectrum-row"><div class="spectrum-name"><strong>GEOS-Chem</strong><span>Offline community chemical transport model</span></div><div class="spectrum-track"><div class="spectrum-range external" style="--start:8%;--width:84%"><strong>Driven by GEOS meteorology</strong><span>user-defined simulation</span></div></div></div>
   </div>
   <div class="source-strip">
     <a href="https://gmao.gsfc.nasa.gov/gmao-products/" target="_blank" rel="noopener">NASA GMAO product overview</a>
@@ -887,13 +887,13 @@
 
 <section class="slide" id="geos-coupling">
   <div class="eyebrow">Initial and boundary conditions</div>
-  <h2>One connection is weather. The other is chemistry.</h2>
+  <h2>Meteorological forcing and chemical boundary conditions are distinct model inputs.</h2>
   <div class="pipeline-list" aria-label="GEOS forcing and boundary-condition pathways">
     <div class="pipeline-row">
       <div class="pipeline-index">01</div>
       <div class="pipeline-stage"><small>Weather source</small><strong>GEOS-FP / MERRA-2</strong><span>Winds, temperature, moisture, pressure, and land fields</span></div>
       <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Transform</small><strong>Regrid + interpolate</strong><span>Move from the global grid and levels to the regional domain</span></div>
+      <div class="pipeline-stage"><small>Preprocessing</small><strong>Regridding + interpolation</strong><span>Transform global fields to the regional grid and vertical coordinate</span></div>
       <div class="pipeline-arrow">→</div>
       <div class="pipeline-stage"><small>Regional model</small><strong>WRF / NU-WRF</strong><span>Meteorological initial state and time-varying lateral boundaries</span></div>
     </div>
@@ -901,7 +901,7 @@
       <div class="pipeline-index">02</div>
       <div class="pipeline-stage"><small>Meteorological driver</small><strong>GEOS meteorology</strong><span>GEOS-FP, MERRA-2, or GEOS-IT</span></div>
       <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Model physics</small><strong>Transport + chemistry</strong><span>Mixing, convection, emissions, reactions, and deposition</span></div>
+      <div class="pipeline-stage"><small>Process representation</small><strong>Transport + chemistry</strong><span>Mixing, convection, emissions, chemical reactions, and deposition</span></div>
       <div class="pipeline-arrow">→</div>
       <div class="pipeline-stage"><small>Offline CTM</small><strong>GEOS-Chem</strong><span>Weather is driven by GEOS; chemistry begins from its own restart</span></div>
     </div>
@@ -909,12 +909,12 @@
       <div class="pipeline-index">03</div>
       <div class="pipeline-stage"><small>Chemical source</small><strong>Global chemistry run</strong><span>Three-dimensional species concentrations</span></div>
       <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Transform</small><strong>Species mapping</strong><span>Match mechanisms, units, grids, and vertical levels</span></div>
+      <div class="pipeline-stage"><small>Preprocessing</small><strong>Species mapping</strong><span>Reconcile chemical mechanisms, units, grids, and vertical coordinates</span></div>
       <div class="pipeline-arrow">→</div>
       <div class="pipeline-stage"><small>Regional chemistry</small><strong>Nested CTM / WRF-GC</strong><span>Chemical restart and time-varying species boundaries</span></div>
     </div>
   </div>
-  <div class="coupling-note"><b>!</b><span><strong>Key distinction:</strong> GEOS meteorology can drive another model directly after preprocessing. Chemical boundary conditions generally require concentrations from a global chemistry simulation and an explicit species mapping.</span></div>
+  <div class="coupling-note"><b>!</b><span><strong>Technical distinction:</strong> GEOS meteorological fields can force a regional model after spatial and vertical preprocessing. Chemical boundary conditions require three-dimensional concentrations from a compatible global chemistry simulation and explicit species mapping.</span></div>
   <div class="source-strip">
     <a href="https://geos-chem.readthedocs.io/en/stable/geos-chem-shared-docs/doc/gcid-portal-overview.html" target="_blank" rel="noopener">GEOS-Chem meteorological inputs</a>
     <a href="https://geos-chem.readthedocs.io/en/stable/geos-chem-shared-docs/supplemental-guides/nested-grid-guide.html" target="_blank" rel="noopener">GEOS-Chem nested boundary conditions</a>
@@ -924,14 +924,14 @@
 
 <section class="slide" id="pm25-anatomy">
   <div class="eyebrow">PM2.5 and related variables</div>
-  <h2>Small enough to travel beyond the body's first defenses.</h2>
+  <h2>PM2.5 is defined by aerodynamic diameter and comprises multiple chemical species.</h2>
   <div class="pm-scale-layout">
     <div>
       <div class="pm-scale-number">2.5<span>micrometers or smaller</span></div>
-      <p class="pm-definition">PM2.5 is defined by <strong>aerodynamic diameter</strong>, not by one chemical. It is a mixture of solids and liquid droplets from direct emissions and atmospheric formation.</p>
+      <p class="pm-definition">PM2.5 is defined by <strong>aerodynamic diameter</strong> rather than chemical composition. It comprises solid particles and liquid droplets from direct emissions and secondary atmospheric formation.</p>
       <div class="scale-insight">
-        <div style="--accent:#0071e3"><strong>Too small to see individually</strong><span>Concentration is reported as mass per volume of air: µg/m³.</span></div>
-        <div style="--accent:#e85d2a"><strong>Large enough to carry chemistry</strong><span>Composition, size, and source influence toxicity and atmospheric behavior.</span></div>
+        <div style="--accent:#0071e3"><strong>Ambient concentration</strong><span>PM2.5 mass concentration is commonly reported in micrograms per cubic meter of air (µg/m³).</span></div>
+        <div style="--accent:#e85d2a"><strong>Chemical composition</strong><span>Particle size, composition, and source influence atmospheric behavior and health effects.</span></div>
       </div>
     </div>
     <div class="size-ruler" aria-label="Particle size comparison">
@@ -948,13 +948,13 @@
 
 <section class="slide" id="pm25-health-pathway">
   <div class="eyebrow">From exposure to response</div>
-  <h2>The lungs are the entry point. The effects can become systemic.</h2>
+  <h2>Inhaled fine particles can initiate respiratory and systemic biological responses.</h2>
   <figure class="health-visual">
     <img src="assets/pm25_health_pathway.png" alt="Scientific illustration of PM2.5 inhalation, deep-lung deposition, and a limited pathway toward circulation">
     <div class="health-callouts">
-      <div class="health-step"><b>01</b><div><strong>Inhalation</strong><span>Fine particles bypass many upper-airway defenses and travel deep into the respiratory tract.</span></div></div>
+      <div class="health-step"><b>01</b><div><strong>Inhalation</strong><span>Fine particles can penetrate beyond the upper airway and reach the lower respiratory tract.</span></div></div>
       <div class="health-step"><b>02</b><div><strong>Alveolar deposition</strong><span>Particles and associated compounds interact with the lung surface, contributing to oxidative stress and inflammation.</span></div></div>
-      <div class="health-step"><b>03</b><div><strong>Systemic response</strong><span>Inflammatory signaling affects circulation; some fine or ultrafine material may cross biological barriers.</span></div></div>
+      <div class="health-step"><b>03</b><div><strong>Systemic response</strong><span>Inflammatory and oxidative pathways can affect the cardiovascular system; translocation is most relevant to smaller particle fractions.</span></div></div>
     </div>
     <figcaption class="health-caption">Conceptual pathway; anatomy and particle transport are simplified for instruction.</figcaption>
   </figure>
@@ -967,7 +967,7 @@
 
 <section class="slide" id="pm25-why-it-matters">
   <div class="eyebrow">Why it matters</div>
-  <h2>Exposure is widespread, cumulative, and connected to multiple organ systems.</h2>
+  <h2>Population exposure to PM2.5 is associated with substantial global disease burden.</h2>
   <div class="impact-grid">
     <div class="impact-stat" style="--accent:#d70015"><span class="number">4.2M</span><strong>premature deaths</strong><p>WHO estimate attributable to ambient air pollution worldwide in 2019, primarily through fine-particle-related cardiovascular, respiratory, and cancer outcomes.</p></div>
     <div class="impact-stat" style="--accent:#e85d2a"><span class="number">99%</span><strong>of the global population</strong><p>Lived in places where WHO air-quality guideline levels were not met in 2019.</p></div>
@@ -990,11 +990,11 @@
 
 <section class="slide" id="pm25-variables">
   <div class="eyebrow">From health metric to atmospheric budget</div>
-  <h2>PM2.5 at a location is the balance of production, movement, dilution, and removal.</h2>
+  <h2>Local PM2.5 reflects the combined effects of sources, atmospheric processing, transport, mixing, and removal.</h2>
   <div class="budget-equation" aria-label="Conceptual PM2.5 atmospheric budget">
     <div class="budget-term" style="--accent:#d70015"><strong>Emissions</strong><span>Fire, traffic, energy, industry, cooking, dust</span></div><div class="budget-op">+</div>
     <div class="budget-term" style="--accent:#7b61a8"><strong>Formation</strong><span>Gases react and condense into secondary particles</span></div><div class="budget-op">±</div>
-    <div class="budget-term" style="--accent:#0071e3"><strong>Transport & mixing</strong><span>Winds import/export pollution; boundary-layer depth dilutes or concentrates it</span></div><div class="budget-op">−</div>
+    <div class="budget-term" style="--accent:#0071e3"><strong>Transport & mixing</strong><span>Advection redistributes aerosol; boundary-layer structure controls vertical dilution</span></div><div class="budget-op">−</div>
     <div class="budget-term" style="--accent:#248a3d"><strong>Removal</strong><span>Rain scavenging and dry deposition</span></div><div class="budget-op">=</div>
     <div class="budget-term" style="--accent:#e85d2a"><strong>Local PM2.5</strong><span>Concentration at a specific place and valid time</span></div>
   </div>
@@ -1017,16 +1017,16 @@
 
 <section class="slide" id="local-evaluation">
   <div class="eyebrow">Strengths, limitations, local evidence</div>
-  <h2>Global coverage is powerful. Local accuracy still has to be demonstrated.</h2>
+  <h2>Local performance must be quantified before GEOS-FP is used for regional applications.</h2>
   <div class="evidence-layout">
     <div>
-      <h3>What GEOS-FP gives us</h3>
+      <h3>Principal strengths of GEOS-FP</h3>
       <ul class="evidence-list">
         <li>Spatially complete, physically consistent meteorology and aerosol fields.</li>
         <li>Near-real-time analyses and forecasts with source and transport context.</li>
         <li>A common framework for locations where monitors are sparse.</li>
       </ul>
-      <h3 style="margin-top:30px">What can create local error</h3>
+      <h3 style="margin-top:30px">Sources of local model–observation disagreement</h3>
       <ul class="evidence-list">
         <li>A grid-cell average and a point monitor do not represent the same spatial scale.</li>
         <li>Emissions, aerosol speciation, chemistry, boundary-layer mixing, terrain, and rain introduce regional and seasonal biases.</li>
@@ -1035,7 +1035,7 @@
     </div>
     <figure class="media tall">
       <img src="assets/pcd_scatter.png" alt="Observed Thai PCD PM2.5 compared with collocated GEOS PM2.5">
-      <figcaption>Thai PCD observations turn a global product into a locally testable forecast.</figcaption>
+      <figcaption>Collocated Thai PCD observations provide an independent basis for quantifying regional GEOS-FP performance.</figcaption>
     </figure>
   </div>
   <div class="local-workflow" aria-label="Local evaluation workflow">
@@ -1043,7 +1043,7 @@
     <div><b>02</b><strong>Collocate</strong><span>Match each monitor to the nearest model grid point and retain distance/index.</span></div>
     <div><b>03</b><strong>Match averaging</strong><span>Build 3-hour windows at 01:30, 04:30, ... UTC; require <code>n_obs = 3</code>.</span></div>
     <div><b>04</b><strong>Evaluate</strong><span>Use N, IOA, r, slope, RMSE, and mean bias by station, season, and forecast day.</span></div>
-    <div><b>05</b><strong>Improve</strong><span>Diagnose systematic errors before applying or validating bias correction.</span></div>
+    <div><b>05</b><strong>Diagnose</strong><span>Characterize systematic error before developing or validating a bias-correction method.</span></div>
   </div>
   <div class="source-strip">
     <a href="https://doi.org/10.1175/JCLI-D-16-0613.1" target="_blank" rel="noopener">Buchard et al. (2017), Journal of Climate</a>
@@ -1054,7 +1054,7 @@
 
 <section class="slide" id="geos">
   <div class="eyebrow">Introduction to GEOS</div>
-  <h2>Explore PM2.5 and the winds that move it.</h2>
+  <h2>Examine the spatial and temporal evolution of forecast PM2.5 and near-surface wind.</h2>
   <div class="map-layout">
     <div class="geos-map-wrap map-stage">
       <div id="geosForecastMap" aria-label="Interactive GEOS-FP 24-hour forecast map"></div>
