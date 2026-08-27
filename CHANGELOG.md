@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.09.5
+
+- Shorten the Day 1 presentation to the overview, GEOS, PM2.5, local
+  evaluation, and interactive forecast content.
+- Remove the hands-on and notebook-training sequence from the presentation
+  navigation and rendered page.
+
 ## 2026.09.4
 
 - Add the University of Alabama in Huntsville logo to the public course portal
