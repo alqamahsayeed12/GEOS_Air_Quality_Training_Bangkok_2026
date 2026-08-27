@@ -2,6 +2,9 @@
 
 ## 2026.09.10
 
+- Add direct Google Colab launch actions for all four training modules.
+- Add an interactive figure viewer with popout, zoom, drag-to-pan, reset, and
+  open-in-new-tab controls.
 - Lock the finalized Day 1 science presentation by commit and SHA-256 checksum.
 - Add a separate 12-page training roadmap covering every notebook section,
   participant decision, checkpoint, output, and scientific invariant.
