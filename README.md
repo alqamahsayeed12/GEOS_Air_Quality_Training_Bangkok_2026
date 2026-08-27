@@ -10,6 +10,14 @@ participant can reproduce the worked examples in Google Colab.
 
 [Open the course portal](https://alqamahsayeed12.github.io/GEOS_Air_Quality_Training_Bangkok_2026/)
 
+## Presentations and Guides
+
+- [Day 1 science presentation](https://alqamahsayeed12.github.io/GEOS_Air_Quality_Training_Bangkok_2026/presentation/day1_geos_training.html)
+- [Training modules roadmap](https://alqamahsayeed12.github.io/GEOS_Air_Quality_Training_Bangkok_2026/presentation/training_modules_roadmap.html)
+- [Participant guide](docs/PARTICIPANT_GUIDE.md)
+- [Instructor guide](docs/INSTRUCTOR_GUIDE.md)
+- [Troubleshooting guide](docs/TROUBLESHOOTING.md)
+
 ## Start Here
 
 1. Sign in to a Google account.
