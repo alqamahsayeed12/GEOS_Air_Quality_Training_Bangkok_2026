@@ -112,7 +112,8 @@ if manifest_path.exists():
     manifest_files = {row["path"] for row in manifest_rows}
     packaged_files = {
         path.relative_to(ROOT).as_posix()
-        for path in (ROOT / "data").rglob("*") if path.is_file()
+        for path in (ROOT / "data").rglob("*")
+        if path.is_file() and path.name != ".DS_Store"
     }
     if manifest_files != packaged_files:
         errors.append("data_manifest.csv does not match the packaged data file inventory")
