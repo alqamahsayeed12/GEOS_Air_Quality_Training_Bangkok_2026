@@ -61,7 +61,9 @@ outputs/            generated at run time and ignored by Git
 
 The repository contains compact teaching products, not the complete research
 archive. See [Data Sources and Licenses](docs/DATA_SOURCES_AND_LICENSES.md) and
-the machine-readable [data manifest](data_manifest.csv).
+the machine-readable [data manifest](data_manifest.csv). The
+[package inventory](docs/PACKAGE_INVENTORY.md) maps every notebook to its data,
+scalar, model, and presentation dependencies.
 
 ## OpenAQ API Key
 
@@ -102,4 +104,3 @@ jupyter lab
 Original code is released under the MIT License. Original training text and
 figures are released under CC BY 4.0. Third-party data, imagery, logos, basemaps,
 and model assets retain their original terms; see the data source register.
-

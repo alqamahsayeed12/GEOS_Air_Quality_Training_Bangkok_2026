@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import csv
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -53,6 +55,74 @@ for path in ROOT.rglob("*"):
         for pattern in SECRET_PATTERNS:
             if pattern.search(text):
                 errors.append(f"Possible committed secret: {path.relative_to(ROOT)}")
+
+# Course asset counts are part of the notebook contract, not incidental inventory.
+asset_expectations = {
+    "Lao PDR AQMS station files": (
+        sorted((ROOT / "data/module2/aqms").glob("AQMS[0-9][0-9].csv")), 14
+    ),
+    "Thai PCD station files": (
+        sorted((ROOT / "data/module2/pcd").glob("th*t.csv")), 96
+    ),
+    "compact GEOS NetCDF files": (
+        sorted((ROOT / "data/module2/geos").glob("*.nc")), 2
+    ),
+    "v3.1 fold models": (
+        sorted((ROOT / "data/module3/model_assets").glob("*fold*.h5")), 30
+    ),
+    "v3.1 ensemble models": (
+        sorted((ROOT / "data/module3/model_assets").glob("*ensemble.h5")), 3
+    ),
+}
+for label, (paths, expected_count) in asset_expectations.items():
+    if len(paths) != expected_count:
+        errors.append(f"Expected {expected_count} {label}; found {len(paths)}")
+
+for day in (1, 2, 3):
+    model_root = ROOT / "data/module3/model_assets"
+    expected_day_models = [
+        model_root / f"v3_1_dnn_bias_Correction_day{day}_fold{fold:02d}.h5"
+        for fold in range(10)
+    ] + [model_root / f"v3_1_dnn_bias_Correction_day{day}_ensemble.h5"]
+    for model_path in expected_day_models:
+        if not model_path.exists() or model_path.stat().st_size == 0:
+            errors.append(f"Missing or empty model asset: {model_path.relative_to(ROOT)}")
+
+# The scalar table stores 17 physical predictors. Module 3 explicitly appends
+# 0-1000 bounds for the three PM2.5 baseline predictors.
+scalar_path = ROOT / "data/module3/model_assets/max_min4.csv"
+physical_features = {
+    "WIND", "PS", "Q500", "Q850", "QV10M", "T10M", "T500", "T850",
+    "U10M", "V10M", "BCSMASS", "DUSMASS25", "OCSMASS", "SO2SMASS",
+    "SO4SMASS", "SSSMASS25", "TOTEXTTAU",
+}
+if scalar_path.exists():
+    with scalar_path.open(newline="", encoding="utf-8-sig") as handle:
+        scalar_rows = list(csv.reader(handle))
+    scalar_cells = {cell.strip() for row in scalar_rows for cell in row}
+    missing_scalar_features = sorted(physical_features - scalar_cells)
+    if missing_scalar_features:
+        errors.append(f"Scalar table is missing features: {missing_scalar_features}")
+
+# Confirm every packaged data/model file still matches the committed manifest.
+manifest_path = ROOT / "data_manifest.csv"
+if manifest_path.exists():
+    with manifest_path.open(newline="", encoding="utf-8") as handle:
+        manifest_rows = list(csv.DictReader(handle))
+    manifest_files = {row["path"] for row in manifest_rows}
+    packaged_files = {
+        path.relative_to(ROOT).as_posix()
+        for path in (ROOT / "data").rglob("*") if path.is_file()
+    }
+    if manifest_files != packaged_files:
+        errors.append("data_manifest.csv does not match the packaged data file inventory")
+    for row in manifest_rows:
+        data_path = ROOT / row["path"]
+        if not data_path.exists():
+            continue
+        digest = hashlib.sha256(data_path.read_bytes()).hexdigest()
+        if digest != row["sha256"]:
+            errors.append(f"Checksum mismatch: {row['path']}")
 
 for notebook_path in sorted((ROOT / "notebooks").glob("*.ipynb")):
     try:
