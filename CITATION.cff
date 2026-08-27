@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this training package when reusing its original materials."
+title: "GEOS Air Quality Training: Bangkok 2026"
+type: software
+authors:
+  - family-names: Sayeed
+    given-names: Alqamah
+year: 2026
+license: MIT
+repository-code: "https://github.com/alqamahsayeed12/GEOS_Air_Quality_Training_Bangkok_2026"
+

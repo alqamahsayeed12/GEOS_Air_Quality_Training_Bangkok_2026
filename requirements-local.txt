@@ -1,0 +1,4 @@
+-r requirements-colab.txt
+jupyterlab>=4.2
+tensorflow>=2.16
+

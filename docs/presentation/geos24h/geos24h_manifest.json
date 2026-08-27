@@ -1,0 +1,133 @@
+{
+  "init": "2026-08-04 12:00 UTC",
+  "sourceFolder": "/Volumes/Personal2/ADPC_UAH_GEOS_DATA/GEOS_FP_FORECAST_SELECTED_3H/20260804/H12",
+  "variable": "PM25",
+  "units": "\u00b5g/m\u00b3",
+  "conversion": "PM25 kg m-3 \u00d7 1e9",
+  "bounds": [
+    [
+      -85.0511287798066,
+      -180
+    ],
+    [
+      85.0511287798066,
+      180
+    ]
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "label": "2026-08-04 13:30 UTC",
+      "leadHour": 1.5,
+      "image": "geos24h/geos_pm25_24h_00.png",
+      "valueImage": "geos24h/geos_pm25_values_24h_00.png",
+      "min": 0.02499428018927574,
+      "max": 7276.6904296875,
+      "p99": 64.97224426269531,
+      "mean": 9.472103118896484
+    },
+    {
+      "index": 1,
+      "label": "2026-08-04 16:30 UTC",
+      "leadHour": 4.5,
+      "image": "geos24h/geos_pm25_24h_01.png",
+      "valueImage": "geos24h/geos_pm25_values_24h_01.png",
+      "min": 0.00746446568518877,
+      "max": 6510.63134765625,
+      "p99": 69.38726043701172,
+      "mean": 9.6727876663208
+    },
+    {
+      "index": 2,
+      "label": "2026-08-04 19:30 UTC",
+      "leadHour": 7.5,
+      "image": "geos24h/geos_pm25_24h_02.png",
+      "valueImage": "geos24h/geos_pm25_values_24h_02.png",
+      "min": 0.020007437095046043,
+      "max": 6139.28857421875,
+      "p99": 72.07109069824219,
+      "mean": 9.687728881835938
+    },
+    {
+      "index": 3,
+      "label": "2026-08-04 22:30 UTC",
+      "leadHour": 10.5,
+      "image": "geos24h/geos_pm25_24h_03.png",
+      "valueImage": "geos24h/geos_pm25_values_24h_03.png",
+      "min": 0.032562632113695145,
+      "max": 5371.884765625,
+      "p99": 75.10416412353516,
+      "mean": 9.859850883483887
+    },
+    {
+      "index": 4,
+      "label": "2026-08-05 01:30 UTC",
+      "leadHour": 13.5,
+      "image": "geos24h/geos_pm25_24h_04.png",
+      "valueImage": "geos24h/geos_pm25_values_24h_04.png",
+      "min": 0.03125805780291557,
+      "max": 5580.50048828125,
+      "p99": 76.51096580504992,
+      "mean": 9.889388084411621
+    },
+    {
+      "index": 5,
+      "label": "2026-08-05 04:30 UTC",
+      "leadHour": 16.5,
+      "image": "geos24h/geos_pm25_24h_05.png",
+      "valueImage": "geos24h/geos_pm25_values_24h_05.png",
+      "min": 0.02853747084736824,
+      "max": 6966.30712890625,
+      "p99": 74.17082977294922,
+      "mean": 9.73615837097168
+    },
+    {
+      "index": 6,
+      "label": "2026-08-05 07:30 UTC",
+      "leadHour": 19.5,
+      "image": "geos24h/geos_pm25_24h_06.png",
+      "valueImage": "geos24h/geos_pm25_values_24h_06.png",
+      "min": 0.028165070340037346,
+      "max": 7922.3720703125,
+      "p99": 66.02156829833984,
+      "mean": 9.340208053588867
+    },
+    {
+      "index": 7,
+      "label": "2026-08-05 10:30 UTC",
+      "leadHour": 22.5,
+      "image": "geos24h/geos_pm25_24h_07.png",
+      "valueImage": "geos24h/geos_pm25_values_24h_07.png",
+      "min": 0.02511906996369362,
+      "max": 6338.42578125,
+      "p99": 60.432106018066406,
+      "mean": 9.132160186767578
+    }
+  ],
+  "colorScale": [
+    [
+      0,
+      "#00e400"
+    ],
+    [
+      15,
+      "#ffff00"
+    ],
+    [
+      35,
+      "#ff7e00"
+    ],
+    [
+      55,
+      "#ff0000"
+    ],
+    [
+      100,
+      "#8f3f97"
+    ],
+    [
+      150,
+      "#7e0023"
+    ]
+  ]
+}

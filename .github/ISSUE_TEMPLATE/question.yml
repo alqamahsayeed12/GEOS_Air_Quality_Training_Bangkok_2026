@@ -1,0 +1,22 @@
+name: Training question
+description: Ask a scientific-method or exercise question
+title: "[Question] "
+labels: [question]
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Module and section
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What did you try or observe?
+

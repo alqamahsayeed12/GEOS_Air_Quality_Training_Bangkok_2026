@@ -1,0 +1,154 @@
+path,size_bytes,sha256,source,training_purpose,redistribution_status
+data/module2/README.md,253,2d65abc3f7b08986a46c4645a3fde68fe7fed7c9676efbe3068b2fb44f100ce7,Course package,Training support,see documentation
+data/module2/aqms/AQMS01.csv,1172483,feb9de0696cc3a9cbaf4458738606677cb79093c0a67f987b57ffa21ff8047cb,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS02.csv,1137681,3f32cde0e312ad6caf2582efbcfc678bca8d27a7841fa78cd591513784848070,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS03.csv,1021690,58c762ebc80661e55f59289939efa111e482344d1def530372a92f35a1995a36,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS04.csv,777464,5b7852985fed8a2a39455e756c487c875a1acf10612002ebc4565c137dbf095b,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS05.csv,1131793,00aec886416748b19dfc856fc94910937fe132114410ab9c003192411330f5b3,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS06.csv,2375308,57716ac5f03f412d7a8a45e27841f7b1834579abb20a4249ce6ab8839be12f90,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS07.csv,1563612,f0a81ff9f1020997df744dc345b95c5491782469f93f4c7fa1d0b95be2ffb377,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS08.csv,71752,fd22df1526e8e7092ea6260d6001dcc182d20fe7e39173551a8bf7ae09ea021e,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS09.csv,1488448,cd8bea5bb6231e74bfcf0659a545bfd732c21cb024473de393583604c2091b17,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS10.csv,704981,3705cf7792494b5cb7b4cde4fb23bd2be3e53d98258ca1b8eff1d8fa26cdcffe,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS11.csv,269750,afc0377dc063e22cbb1e262ec43d9d17670767d44da47a46fd1b054f430e2aed,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS12.csv,251266,c523dfb1887f53da9d708abad78c0cc18a7b7709fc267b9047c7cd64b99f78d1,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS13.csv,217791,3a7ec2431c14fa50c047ac987f3f0423f6489b26dceac7f13dde4a38c6ac2730,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/aqms/AQMS14.csv,281424,5695921eb6268bdce01f6d3acb93a7b4642d1c88bc55b74206972898a898450f,Lao PDR AQMS,Ground-station QA/QC,confirm before public release
+data/module2/full_period_aqms_geos_evaluation.csv,10027313,2ea0c689e40bbe68ef602db1f0ae3808a48101e1ec637f1e20fbdbcb1c893292,Derived evaluation table,Forecast-day evaluation,inherits ground-data terms
+data/module2/geos/20230505.nc,26792791,0a6bb9491dd0adc7c5c19ab4dc49f8032e312c98f7a017ae151f309b70afe587,NASA GEOS-FP,Compact collocation example,NASA source terms
+data/module2/geos/20230506.nc,26779494,c1ef6573b6d9f1713252d83e7981dc9b2b478aa9cd3267c97a2f29cbe84db703,NASA GEOS-FP,Compact collocation example,NASA source terms
+data/module2/geos_25km_grid_template.nc,4799,11548cf49af2234c05dfd2cf8ee830e8b278f201d1ef19de79704b1493a590dd,NASA GEOS-FP,Compact collocation example,NASA source terms
+data/module2/pcd/th02t.csv,14840,3a698a8592dabeb52a7cf56688e969b33d4b215f501d418a8510a848195dcc72,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th03t.csv,12869,105f5543f54646f7459995c0629cf115abea82c8c2d741dc638d5d24ef737ae2,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th05t.csv,13482,592bab92aa2330f8b0342c293ccd79a655239aa353bfc137e8845d63314fd94a,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th08t.csv,13492,e4ee5248719a7923fce4b2b91fd7e843d21cd0e84ef2dc1a6c71cd34668a4d20,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th100t.csv,14258,a469f27c5279c5a19db4d31ac594915ae36b34dc3910697d803333f9079831e8,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th101t.csv,11052,6e7d3b02271843f9535c23e9d3551a0a55ec0e6bb4ebab18b56ea14947d64a05,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th102t.csv,12254,f13afcc46a21f844f0e31ea29b4661331d498b3aa302380043e74ca115dca1d1,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th103t.csv,19026,11a770b5703cfc85d265ba9dd58c29d803a99b9510699685905b9afd2c083efa,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th104t.csv,10290,88a6cd13dba2ac4a658b6270767877672905298c38ed288f6bb947abbd7fc0c9,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th105t.csv,15666,abd9ea1a18d00fd82694ca07405832182eae8e230abbb07ca009263fc5734b85,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th106t.csv,11130,13945defec5699e94fc8dd519eb39b090b2a924cf4977bf0111d8cf4790e6f1b,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th107t.csv,10794,2bc37aff3ed7db6f529c8b27930514a3e3fcba960761ee919f5241222baf7680,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th108t.csv,14322,06f04df4142846f632a6548de368bbfb0d1da96ac11a0b92f0acc43829b09cb2,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th109t.csv,11970,03f7cecca71b57017ad159f0262431b1a3fbf24c09387ec718c70ac74bdb50fb,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th10t.csv,14487,c19bab8a74b717a77e2896f14832effff8dff4f89087b426781316c83be00f88,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th110t.csv,11802,7ae68741389ff3d84d6a060847f9e9d1f3c246faa7d2a64a3ddeb39935ce2d78,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th111t.csv,12978,36b5782bfc7120fa50ae977b35df0b68d1827e49fcc12b75e9f3935dd6f22337,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th112t.csv,13050,54487a4fb94c0606b980e4b31dc2c9d600f580f294bed0cb656cb8494024ddec,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th11t.csv,12809,81d3eedf4a6b71fca4163d68cbdbe0b35e2d66502cc392bf7c5b3bfcb243be0c,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th12t.csv,11981,1592a65e28cb510524b95f9550c69b77297f8da3a1c7453444bef344c4218aea,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th13t.csv,15834,f989b5ebd88aeed1cba1f596d0f998c5e997b999bd841a46b6ca7e0461e6342b,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th14t.csv,12980,64d7e9c2a60a0c67ac16e4acf12ee1385e9e530d7165387b3cba1d72e97b2192,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th16t.csv,12647,8853ebcd909892891c861bfccfc9029af4cae873c64441639542132f0844a2f9,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th17t.csv,15828,c0fc282269bec77d7acb72d9ea05585aa2718e1f3e267f819a2db2401110ce14,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th18t.csv,12187,634ef264d1530d569340d5966b4ff3a474917da69679cad1b0b6c42f2e2a2837,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th19t.csv,14321,4310606e816e9ba9b776b48517bf4ac41bb016bb2a72f60f4a5984bd9794bf68,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th20t.csv,13986,ac26cdef8d5e74541ed68639e2e72784d3e0cac8fa406acc4f0f1bc084008954,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th21t.csv,13154,e727b0b9cfd03f5ed6422f38103d1a6bb04be3dc06a29f45db9dc3d3370d9e4f,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th22t.csv,14656,8bbea915e711f4117eb8b75354c65de958d852f6db61ee400711410decd14319,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th24t.csv,12663,d771452aab48d8162d889359dbeae09909121edd9846d66358f1768cd327755c,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th25t.csv,11973,2bb113f78183fe184915c22ccdb1c44657e78c86d7c9a6ff783a4f7900a08bbe,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th26t.csv,13798,fc508480eb5bfb53dc344786176429ce03214067247d7a46b0a3d3a9b1cfe187,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th27t.csv,13555,b79ae5faf62494aa36042ead1c44645d20c7672ab992659884674e8b238786b8,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th28t.csv,13817,062e135c978bcd46de5114f93173e522a76a109bc8edc71346d88e7dfcfe3350,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th29t.csv,13980,cc2b558a8fa00d93ffb0e7fe6c4f088f372113235f8a12fd3c982113f343f5b6,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th30t.csv,12808,c2536d00ddfc0eaf482a47a8f69e1bb2a5cbd9d1f73499123f78bb769ab4dc0a,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th31t.csv,13809,57da23b136b1640e96b046c2876536ef14624c3de23f9b2c747278815933b7ac,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th32t.csv,13482,a48c2001a5e2455f34d7dd3f550a8f792d3b734d6ada0309a9349a3580464a76,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th33t.csv,14489,f9d88d1e9608a4b405c929134ddd3a05ed7ae31d9a9c4403cbafedc5249826fa,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th34t.csv,14825,2b4dac17bd8ba9ac2c66b0bca6eca1368e778582580f03f50df395777315565d,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th35t.csv,11470,0a5573035bd9057c38048d51406e496378715c8b6a7ee3b9f337abcdf994b457,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th36t.csv,12977,49a09956f555cabeb50871c181bbe0c424b5244ecd77f086b1db351948641b79,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th37t.csv,13321,43f60427b09ce65a83f0e534f20a4ed1ac6752d553dc21c425ec78a7b7a23ed7,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th38t.csv,15153,02a5c6cb96b1e3e70f0108923a2f0424a610c48f32b3c674866ef7595edf4126,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th39t.csv,13652,c2fd9ff4f93ee5a500673d83a9c2e6768a907101c97c0558c2532a85b62b7ccd,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th40t.csv,14492,68b2c582d6318bc9d8759942a9460bae94b84f8a72fd60f2294eb8e6dc253993,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th41t.csv,13499,2e0718860a8166b41990f3e388fcce884a35415749cc1ee7f3276640d7393a48,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th42t.csv,17327,1ad217dee58b1501f638984edeb4d356390b33df681275c0eb2a1fd686e46037,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th43t.csv,13146,bbfb04daa2a02e30e4cec61441e4e9fa6d672ac869b7b61192101e0ae7c65f97,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th44t.csv,11439,9c60e31683646285260e7d8ff8fd64e4e0d7e3060ba50d78a7086271464b05b3,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th46t.csv,19035,da2ba824d019c7fd8fcecf3fbd150000240a1eb3a0ac7ee7cedf19c62fca7b60,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th47t.csv,14658,08b98cd32cab21533fab4ce80b821e3aaa39d8483c28ff659315e13a3ff83590,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th50t.csv,12142,851bde0c77093869c48833b0d64bab4fc5cfeca8b629c298935c7e683f5f4f42,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th52t.csv,12827,154b02ada3c2d625255e52607d10d607da6ae04668e97097ba939e376ac0e6b5,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th53t.csv,12316,0f8bf7fb44c683a62ece419edfca88ba2a917254ee23a5d32a7e7dbe5768e37e,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th54t.csv,14339,1961f5c49e8a2856fb2890ca509c17b6da25c4b186d6f416d6028b078d71ae80,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th57t.csv,16842,1e7a62ce43552209b23e41a7c3256ad5730803949d21dbb216a72ef55b50cdf5,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th58t.csv,17178,dff2cbbea0f648d5c43d14333489fd750c055e4e9931c2435c40829205143a6d,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th59t.csv,15498,d92ba4f02c61a1f5c1a82f1a29b48c51ef8e9d942c8fa3e91ea5266dfd8fd95f,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th60t.csv,15325,0df1bd998f0dac2c10a2cf837f438047a2044824d38de47c1320f6aa10ed60fb,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th61t.csv,13821,208d081862e69418092d045cabcf9996fe44da1edc384316b3d34084b6356f8d,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th62t.csv,11557,aac3ac8781e25072f7cf26aa7289c4cf8708e3206d9c8f5a86604c7491101a43,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th63t.csv,11932,8dc920f09d67692c650b70bf6fd286af12728752748b3b0bb33362d09e21d0b4,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th67t.csv,12311,df8d1366e20c8ac994fb0cb70aa3e17e431ad62706fb3ff0517904e12c126529,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th68t.csv,13146,6129396d2cc66726af8ab00e0621b8bfc354ab57eaa07de721a1ea2a5176f0e0,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th69t.csv,13147,e330d25c1087b07cd2436ed9954bb96b64d93031a09a70a5f96d5bec257c79c1,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th70t.csv,13315,d2a192245a66c664d60119be0f732c2dda4dcacc959f0b8408974a43668bc9c3,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th71t.csv,13818,440e2a7e354580969d43d4239c60f92785f2d43fcc640ea886647308060e6b10,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th72t.csv,12978,5562b317eb2dcfa1071c5250ec3457812f2cf9907470d4b3793fe5ac27bc83b9,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th73t.csv,11594,99f2335d1fade29680005f140025d5fa20c0940f74db79e5b73ca3cc5c45c3ce,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th74t.csv,12645,8465e66afcaa0d3691135930b454a412efe2b19544cf6b95bf1c542bec5f3c21,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th75t.csv,12107,34f8b0c822dfcdec49014c814cd78f393f1d46d0e62bbe3b798373f1f2642643,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th76t.csv,14837,2d67f08a05a413b5f33b21465253afa9f7031298da44f28842d1f85700642a54,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th77t.csv,14322,05c2dca91949d4e0c9106acc607173a181ce9b6fd4a1d4055808e61fd77cfaf2,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th78t.csv,13135,3e4c1627ed90058951dafa9481ac519cc6422a205e2b2df17baf5512baf54761,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th79t.csv,14146,e726370a5fbf65b815b19593f194bcdb52977a18ef8d03178e56a85a6948e10e,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th80t.csv,10714,d7b72c89bf2fc1770c2919f247c93e0ad064f0a39bb5f11f6ee16b296b9507ab,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th81t.csv,13356,6f6b45508de484dbcd515a75cac6f1d08313e33382101b523cbbc8b6d8c72d14,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th82t.csv,14026,7bbc684f581af8126be589a9f925b803108d2872bd898e6bdb29f711c6393835,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th83t.csv,13635,c8e68fdfca1a9bfdb9f8f761cbac09572e611dac4690e39b6cd3071a05e433b5,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th84t.csv,16171,d683b6aff0b98f1e41d43994d1ff67585f25501e265f3e7b0644624fabf8f718,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th85t.csv,14826,b6bb035422e9531807e1d0a3dc3073d2c92c824bdf5e829b15add98ee66f69aa,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th86t.csv,14690,4a019e414cb57b82919dbc6287dbe20d41cd6c859b09a6d79fbe549f5c687fcb,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th87t.csv,13629,f955e1ea3fe11dab9f042c31dee42c9ba530bee67359256a3f11b88e41ce2b04,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th88t.csv,14657,dc6e40923b28caface66b2ae60ef900e2daefd6d5219c9682c377f5889621d75,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th89t.csv,14118,5bbec9175a361fe1e719b6ec2287dd459234b0adb7767d5a354e5f7ae35b7b13,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th90t.csv,13818,0a6a93601f66fddbdb250578f3133323e318c168f924858d8a14a80dfd4ab9d7,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th91t.csv,14322,43c56c9e9d96629f60c4ebbaf6b445938c4792d7621851b658d556733fcd4c71,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th92t.csv,16674,2db7b238e922c1a2bf40d5f93d393c8635d08ef891952f6aa387ceb21bd875f2,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th93t.csv,11970,5c3ede56db2a0db8c9ebe104d347cdc3e88e466521aecebd7410a52e11ab5200,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th94t.csv,15072,6f75f2e49114fd71eb3dedb6b42355ef0b6e41aa2524e12c7daa30a93f082d53,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th95t.csv,12599,5c3a2c2ca7591a19b235f4e0d82b64c607541b2302d731bc5c2def75724e28d4,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th96t.csv,11466,0d6c38aba3fe9a02db240732cb2fee4b4f6aeaf18656dcc8ecbccd40b9af259c,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th97t.csv,10626,1f434f71cd9d80facd9493cdd1732c64f88a9150a4937978723227bc215e04aa,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th98t.csv,17346,6c9ee1cfe44d6283c1782862b0e7d545064b5fa220b418d1a8f06652c358a427,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module2/pcd/th99t.csv,13146,bfdf9826ef2b0226ea16ac2a1a436491774e45b24bc748179fd58605c001b413,Thai PCD,Ground-station QA/QC,confirm before public release
+data/module3/aqms_geos_collocated_training_sample_day1.csv,2570583,52193943ade73df2c859f3e4a325f8b07128f02e8dd2137fc482f5d0b9245b38,Derived training assets,Module 3 demonstration,inherits source terms
+data/module3/model_assets/max_min4.csv,259,4e724830c51df06ec356d2ac7b4ee0a5df7b349d25bb09aafb37869442cc4b78,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/model_downscale_v1_colab.keras,658114,6055456e045302a454ea7edc9fb780f176785a9d1c0b64f31a2a9c8d34d5d9c9,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_ensemble.h5,74952,912926d430043b836d1e7c7e71976073faf3decb362f9bfe9630112f907b93fe,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold00.h5,71112,b66d6a5225bd5daa9604bbf264460e2a3e73c64bdf1ad201ba96005625371175,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold01.h5,71112,816f69e9ba36e69a582c94a5ce4b2a03b46d563108dd3a4034f3885a19d0255c,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold02.h5,71208,5312928280ba6f797f7fd37f282099f23a570d051162f951070f38c75ef91acf,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold03.h5,71208,ddb7f655dfbf3ec47b81a7a380248669b2435c09611a5ec6e5401825e80e642b,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold04.h5,71208,2c95e3d8ae794d20d86aac2c543f9a7cb2bae7bba6535981910163b13ff063eb,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold05.h5,71208,78f7c4a5ab3ade9b6de37aec0f7767a05d65c7a2b18311dc1b09243caae46947,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold06.h5,71208,ffe25b7424c65f4677bb76395b5ce75de0f7311931ccf18f2ffe44fcc486e6d0,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold07.h5,71208,e12d1fc4448dd5e645396ba91088c682c0d86d388a460551f2f396e1a73756e5,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold08.h5,71208,f7aa94b3d12626499e65c6fdd4875c0b9bb7ee854c554079dba47d9ed8ea3341,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day1_fold09.h5,71112,aa6ede645af54e6851ee6491621f3d0e456bbc8869c7faec252b25ea51b7e771,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_ensemble.h5,74952,3ad1f99c866c660f620e8884a0bed63d2058f7e7a955c0870323b44b545cfb42,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold00.h5,71112,b7f9224182ce743c076552922d47ecd8ebf03f3696a930c2fcbb173e981f02a8,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold01.h5,71112,534afc7b97ec0bf73402877496cd6ad5d30ee3cffdabe2949accd73c519201a2,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold02.h5,71208,f7aa764fac6f68e3ad55984d8c1d83793e6ed71af5024b250113bffdee6bcdd2,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold03.h5,71208,94704118a5a812b16f1825e709f35a446513800491eb598a26e6a906e468ad0b,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold04.h5,71208,c8f81a431a7096d065541940431a9febe25f5376d630b42abae1239c6134edd6,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold05.h5,71208,d33d0b1f849af72ee1993b68d7f75886096556194f38f0fbd8c527a6cd2de855,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold06.h5,71208,319b9aa66e64de47abfffb4611aed13e78932bca3d57f672e14acf4bd9833166,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold07.h5,71208,b97d00dc5198e16c088342c73f61ff582d70477c60f66c5d8a3c58e363a425f0,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold08.h5,71208,ff658c031603499bd4b31e2df28fbc7a65919ec04546c3aaed17df799e6b49f8,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day2_fold09.h5,71112,07b42af4175a05110d0be3ed0d4ad341fc74199e3f2b25b17154ed4dfe9e08e0,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_ensemble.h5,75048,53c7c8745887673aeaded5550312d43b63400e6a0809a20c3443db89934077f0,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold00.h5,71112,ef7a7c9a0574727d50fbf0356abe9a0c3166a8bfbd2a0bfa36f4dd8f833aa8aa,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold01.h5,71112,9e19913bdc2c37c418e505aaf3f72237f62a0393927d8cf5ab3017616b925fe1,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold02.h5,71208,e1232ba726d04fa7f1644b64ca43cabd49d0bebd968229ba7976df10df514d7a,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold03.h5,71208,1b083a0147adefa55d4dbcf8732ff897e44a469263a999aaebdd93964f24d93f,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold04.h5,71208,2c4126031fcb7abdcd56312a64dd550978e37e1f064e6fd0c7e8fddd58c1c3d1,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold05.h5,71208,62bff2132b9d553a37f997d18ffb249f262e3e6697bccd06adb3b4e75f35e4a3,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold06.h5,71208,fc15af945db7b61a541153c48a17e8a22783c0d2614570edee454a38e9397260,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold07.h5,71208,6e3ea84917e925058590e878746e54749f54a6c61fb72e9d384e0ede5076b5a8,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold08.h5,71208,a7e78c04fd7f6f527b266a613d886da6b94de358ead87a4fd8621130ad3d35e7,Training author,v3.1 and downscaling inference,educational package
+data/module3/model_assets/v3_1_dnn_bias_Correction_day3_fold09.h5,71208,479cf371862deb027e3b62b84adce3386fd3d1244d2f134abf5301b0c4763e91,Training author,v3.1 and downscaling inference,educational package
+data/module3/module3_geos_domain_20230509_1930.nc,1717488,e9681e4ead1b75e96224b8c438d507a93762d4efdeb8e1b7aeb9e9d2e48f79c8,Derived training assets,Module 3 demonstration,inherits source terms
+data/module3/module3_ground_20230509_1930.csv,259,c22efcb3e2732c09367f150562c79b4a69e506b0784c4328c65c174db0e938d8,Derived training assets,Module 3 demonstration,inherits source terms

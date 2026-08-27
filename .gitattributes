@@ -1,0 +1,11 @@
+*.ipynb text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+*.html text eol=lf
+*.nc binary
+*.h5 binary
+*.keras binary
+*.png binary
+*.gif binary
+

@@ -1,0 +1,32 @@
+name: Colab or setup problem
+description: Report a reproducible participant environment problem
+title: "[Setup] "
+labels: [setup]
+body:
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module
+      options: [Module 0, Module 1, Module 2, Module 3]
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section or cell heading
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Complete error message
+      description: Remove API keys and personal information.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+
