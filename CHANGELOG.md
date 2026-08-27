@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026.09.7
+
+- Add the NSF NCAR atmospheric-process schematic to the Day 1 initial and
+  boundary conditions section.
+- Preserve the GEOS forcing pathways in a compact side-by-side layout with
+  explicit scientific attribution and source links.
+
 ## 2026.09.6
 
 - Revise the Day 1 presentation in a professional scientific register.

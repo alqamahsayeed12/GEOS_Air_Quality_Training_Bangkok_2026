@@ -444,6 +444,18 @@
     .pipeline-stage strong { display: block; color: var(--ink); font-size: 18px; }
     .pipeline-stage span { display: block; margin-top: 7px; color: var(--muted); font-size: 11px; line-height: 1.45; }
     .pipeline-arrow { color: #8e8e93; font-size: 25px; text-align: center; }
+    .coupling-layout { display: grid; grid-template-columns: minmax(380px,.86fr) minmax(620px,1.14fr); gap: 34px; align-items: start; margin-top: 28px; }
+    .atmos-process-figure { margin: 0; overflow: hidden; background: white; border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 18px 42px rgba(29,29,31,.09); }
+    .atmos-process-figure img { display: block; width: 100%; height: auto; }
+    .atmos-process-figure figcaption { padding: 10px 12px; color: var(--muted); border-top: 1px solid var(--line); font-size: 10px; line-height: 1.35; }
+    .coupling-layout .pipeline-list { margin-top: 0; }
+    .coupling-layout .pipeline-row { grid-template-columns: 34px minmax(130px,.85fr) 24px minmax(145px,1fr) 24px minmax(150px,1fr); min-height: 138px; }
+    .coupling-layout .pipeline-index { padding-top: 20px; }
+    .coupling-layout .pipeline-stage { min-height: 88px; padding: 7px 12px; }
+    .coupling-layout .pipeline-stage small { margin-bottom: 8px; }
+    .coupling-layout .pipeline-stage strong { font-size: 14px; line-height: 1.2; }
+    .coupling-layout .pipeline-stage span { margin-top: 5px; font-size: 10px; line-height: 1.35; }
+    .coupling-layout .pipeline-arrow { font-size: 20px; }
     .coupling-note { display: grid; grid-template-columns: 4px 1fr; gap: 18px; align-items: center; margin-top: 24px; }
     .coupling-note b { align-self: stretch; overflow: hidden; color: transparent; background: var(--orange); }
     .coupling-note span { color: #5c514b; font-size: 13px; line-height: 1.45; }
@@ -737,6 +749,8 @@
       .display-controls { display: none; }
       .geos-story, .variable-layout, .evidence-layout { grid-template-columns: 1fr; }
       .geos-visual { min-height: 500px; }
+      .coupling-layout { grid-template-columns: 1fr; }
+      .atmos-process-figure { max-width: 720px; }
     }
     @media (max-width: 760px) {
       :root { --partner-header-height: 60px; }
@@ -788,6 +802,7 @@
       .spectrum-range { min-width: 84px; padding: 0 8px; }
       .spectrum-range span { display: none; }
       .pipeline-row { grid-template-columns: 34px 1fr; padding: 15px 0; }
+      .coupling-layout .pipeline-row { grid-template-columns: 34px minmax(0,1fr); }
       .pipeline-index { grid-row: 1 / span 3; padding-top: 11px; }
       .pipeline-stage { grid-column: 2; min-height: auto; padding: 12px 16px; }
       .pipeline-arrow { display: none; }
@@ -888,34 +903,42 @@
 <section class="slide" id="geos-coupling">
   <div class="eyebrow">Initial and boundary conditions</div>
   <h2>Meteorological forcing and chemical boundary conditions are distinct model inputs.</h2>
-  <div class="pipeline-list" aria-label="GEOS forcing and boundary-condition pathways">
-    <div class="pipeline-row">
-      <div class="pipeline-index">01</div>
-      <div class="pipeline-stage"><small>Weather source</small><strong>GEOS-FP / MERRA-2</strong><span>Winds, temperature, moisture, pressure, and land fields</span></div>
-      <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Preprocessing</small><strong>Regridding + interpolation</strong><span>Transform global fields to the regional grid and vertical coordinate</span></div>
-      <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Regional model</small><strong>WRF / NU-WRF</strong><span>Meteorological initial state and time-varying lateral boundaries</span></div>
-    </div>
-    <div class="pipeline-row">
-      <div class="pipeline-index">02</div>
-      <div class="pipeline-stage"><small>Meteorological driver</small><strong>GEOS meteorology</strong><span>GEOS-FP, MERRA-2, or GEOS-IT</span></div>
-      <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Process representation</small><strong>Transport + chemistry</strong><span>Mixing, convection, emissions, chemical reactions, and deposition</span></div>
-      <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Offline CTM</small><strong>GEOS-Chem</strong><span>Weather is driven by GEOS; chemistry begins from its own restart</span></div>
-    </div>
-    <div class="pipeline-row">
-      <div class="pipeline-index">03</div>
-      <div class="pipeline-stage"><small>Chemical source</small><strong>Global chemistry run</strong><span>Three-dimensional species concentrations</span></div>
-      <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Preprocessing</small><strong>Species mapping</strong><span>Reconcile chemical mechanisms, units, grids, and vertical coordinates</span></div>
-      <div class="pipeline-arrow">→</div>
-      <div class="pipeline-stage"><small>Regional chemistry</small><strong>Nested CTM / WRF-GC</strong><span>Chemical restart and time-varying species boundaries</span></div>
+  <div class="coupling-layout">
+    <figure class="atmos-process-figure">
+      <img src="assets/ncar_atmospheric_processes_rekacewicz_2003.webp" alt="Atmospheric composition processes including emissions, long-range transport, chemical transformation, convection, and deposition across the boundary layer, troposphere, and stratosphere">
+      <figcaption>Atmospheric composition processes represented by chemistry and transport models. U.S. Climate Change Science Program; illustration by Philippe Rekacewicz (2003), reproduced in the NSF NCAR CESM Tutorial 2024.</figcaption>
+    </figure>
+    <div class="pipeline-list" aria-label="GEOS forcing and boundary-condition pathways">
+      <div class="pipeline-row">
+        <div class="pipeline-index">01</div>
+        <div class="pipeline-stage"><small>Weather source</small><strong>GEOS-FP / MERRA-2</strong><span>Winds, temperature, moisture, pressure, and land fields</span></div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage"><small>Preprocessing</small><strong>Regridding + interpolation</strong><span>Transform global fields to the regional grid and vertical coordinate</span></div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage"><small>Regional model</small><strong>WRF / NU-WRF</strong><span>Meteorological initial state and time-varying lateral boundaries</span></div>
+      </div>
+      <div class="pipeline-row">
+        <div class="pipeline-index">02</div>
+        <div class="pipeline-stage"><small>Meteorological driver</small><strong>GEOS meteorology</strong><span>GEOS-FP, MERRA-2, or GEOS-IT</span></div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage"><small>Process representation</small><strong>Transport + chemistry</strong><span>Mixing, convection, emissions, chemical reactions, and deposition</span></div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage"><small>Offline CTM</small><strong>GEOS-Chem</strong><span>Weather is driven by GEOS; chemistry begins from its own restart</span></div>
+      </div>
+      <div class="pipeline-row">
+        <div class="pipeline-index">03</div>
+        <div class="pipeline-stage"><small>Chemical source</small><strong>Global chemistry run</strong><span>Three-dimensional species concentrations</span></div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage"><small>Preprocessing</small><strong>Species mapping</strong><span>Reconcile chemical mechanisms, units, grids, and vertical coordinates</span></div>
+        <div class="pipeline-arrow">→</div>
+        <div class="pipeline-stage"><small>Regional chemistry</small><strong>Nested CTM / WRF-GC</strong><span>Chemical restart and time-varying species boundaries</span></div>
+      </div>
     </div>
   </div>
   <div class="coupling-note"><b>!</b><span><strong>Technical distinction:</strong> GEOS meteorological fields can force a regional model after spatial and vertical preprocessing. Chemical boundary conditions require three-dimensional concentrations from a compatible global chemistry simulation and explicit species mapping.</span></div>
   <div class="source-strip">
+    <a href="https://www.cesm.ucar.edu/sites/default/files/2024-08/2-buchholzcesmtutorial20240.pdf" target="_blank" rel="noopener">NSF NCAR atmospheric chemistry tutorial</a>
+    <a href="https://www2.acom.ucar.edu/acom-modeling-modeling" target="_blank" rel="noopener">NSF NCAR atmospheric chemistry modeling</a>
     <a href="https://geos-chem.readthedocs.io/en/stable/geos-chem-shared-docs/doc/gcid-portal-overview.html" target="_blank" rel="noopener">GEOS-Chem meteorological inputs</a>
     <a href="https://geos-chem.readthedocs.io/en/stable/geos-chem-shared-docs/supplemental-guides/nested-grid-guide.html" target="_blank" rel="noopener">GEOS-Chem nested boundary conditions</a>
     <a href="https://doi.org/10.5194/gmd-14-473-2021" target="_blank" rel="noopener">MERRA-2 to WRF-Chem IC/BC example</a>
