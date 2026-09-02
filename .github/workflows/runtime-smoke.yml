@@ -19,11 +19,15 @@ jobs:
   offline-runtime:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.13"]
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version: ${{ matrix.python-version }}
           cache: pip
           cache-dependency-path: requirements-lock.txt
       - name: Install locked environment

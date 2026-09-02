@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 from pathlib import Path
 from textwrap import dedent
@@ -37,6 +38,10 @@ def load(name: str) -> dict:
 
 
 def save(name: str, notebook: dict) -> None:
+    for index, cell in enumerate(notebook["cells"]):
+        if "id" not in cell:
+            identity = f'{name}:{index}:{cell["cell_type"]}:{"".join(cell["source"])}'
+            cell["id"] = hashlib.sha1(identity.encode("utf-8")).hexdigest()[:12]
     (NOTEBOOK_DIR / name).write_text(
         json.dumps(notebook, indent=1, ensure_ascii=False) + "\n",
         encoding="utf-8",
@@ -79,7 +84,11 @@ else:
         raise FileNotFoundError("Run this notebook from the cloned repository.")
 
 requirements_path = TRAINING_ROOT / "requirements-colab.txt"
-%pip install -q -r "$requirements_path"
+print("Python:", sys.version.split()[0])
+subprocess.run(
+    [sys.executable, "-m", "pip", "install", "-q", "-r", str(requirements_path)],
+    check=True,
+)
 print("Training root:", TRAINING_ROOT)
 '''
 
@@ -365,19 +374,13 @@ def adapt_module3() -> None:
     demonstration.
     ''')
     original = "".join(notebook["cells"][2]["source"])
-    if 'Path("/content/GEOS_Training_Bangkok_2026")' not in original:
-        save(name, notebook)
-        return
-    imports_start = original.index("from pathlib import Path")
-    paths_start = original.index('if "google.colab" in sys.modules:')
-    paths_end = original.index("MODULE3_DATA =")
-    imports = original[imports_start:paths_start]
-    tail = original[paths_end:]
+    analysis_start = original.index("\nfrom pathlib import Path\nimport os\n")
+    tail = original[analysis_start + 1:]
     tail = tail.replace(
         'TRAINING_ROOT\n    / "data"\n    / "collocated_pairs"\n    / "aqms_geos_collocated_training_sample_day1.csv"',
         'MODULE3_DATA / "aqms_geos_collocated_training_sample_day1.csv"',
     )
-    notebook["cells"][2] = code(BOOTSTRAP + "\n" + imports + tail)
+    notebook["cells"][2] = code(BOOTSTRAP + "\n" + tail)
     save(name, notebook)
 
 
