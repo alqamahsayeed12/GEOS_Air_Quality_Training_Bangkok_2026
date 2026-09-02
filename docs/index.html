@@ -132,6 +132,47 @@
     .module h3 { margin: 20px 0 10px; font-size: 27px; letter-spacing: 0; }
     .module p { margin: 0 0 24px; color: var(--muted); }
     .module .button { margin-top: auto; align-self: flex-start; background: var(--blue); border-color: var(--blue); }
+    .setup { background: var(--surface); border-bottom: 1px solid var(--line); }
+    .setup-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(360px, .85fr);
+      gap: 56px;
+      align-items: start;
+    }
+    .setup-list { border-top: 1px solid var(--ink); }
+    .setup-item {
+      display: grid;
+      grid-template-columns: 42px minmax(0, 1fr);
+      gap: 16px;
+      padding: 18px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .setup-index { color: var(--green); font-size: 13px; font-weight: 800; }
+    .setup-item strong { display: block; margin-bottom: 4px; font-size: 18px; }
+    .setup-item p { margin: 0; color: var(--muted); font-size: 15px; }
+    .setup-item a { color: var(--blue); font-weight: 700; }
+    .ready-panel {
+      padding: 28px;
+      background: #eaf4ee;
+      border-left: 4px solid var(--green);
+    }
+    .ready-panel h3 { margin: 0 0 6px; font-size: 25px; }
+    .ready-panel > p { margin: 0 0 20px; color: var(--muted); }
+    .checklist { display: grid; gap: 13px; margin: 0 0 24px; }
+    .checklist label { display: grid; grid-template-columns: 21px 1fr; gap: 10px; align-items: start; font-size: 15px; font-weight: 650; cursor: pointer; }
+    .checklist input { width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--green); }
+    .ready-panel .button { background: var(--green); border-color: var(--green); }
+    .preparation {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+      margin-top: 36px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+    }
+    .preparation h3 { margin: 0 0 8px; font-size: 19px; }
+    .preparation p { margin: 0; color: var(--muted); font-size: 15px; }
+    .not-required { color: var(--ink); font-weight: 700; }
     .workflow { background: #17231c; color: white; }
     .workflow header p { color: #bdc9c1; }
     .steps { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0; }
@@ -160,7 +201,8 @@
       .uah-logo { width: 96px; max-height: 44px; }
       nav div { display: none; }
       .hero { min-height: 560px; }
-      .modules, .resources { grid-template-columns: 1fr; }
+      .modules, .resources, .setup-grid, .preparation { grid-template-columns: 1fr; }
+      .setup-grid { gap: 34px; }
       .steps { grid-template-columns: 1fr; }
       .step, .step:first-child { border-left: 0; border-top: 1px solid #455148; }
       .step:first-child { border-top: 0; }
@@ -178,6 +220,7 @@
   <nav>
     <strong>GEOS Training / Bangkok 2026</strong>
     <div>
+      <a href="#setup">Before you begin</a>
       <a href="#modules">Modules</a>
       <a href="#workflow">How it works</a>
       <a href="#resources">Resources</a>
@@ -192,6 +235,50 @@
         <a class="button" href="https://colab.research.google.com/github/alqamahsayeed12/GEOS_Air_Quality_Training_Bangkok_2026/blob/main/notebooks/00_module0_google_colab_setup.ipynb">Start in Google Colab</a>
         <a class="button secondary" href="presentation/day1_geos_training.html">View Day 1 presentation</a>
         <a class="button secondary" href="presentation/training_modules_roadmap.html">View training roadmap</a>
+      </div>
+    </section>
+
+    <section class="setup" id="setup">
+      <header>
+        <span class="eyebrow">Participant readiness</span>
+        <h2>Before you begin</h2>
+        <p>The course runs in Google Colab. A local Python installation, specialist computer, or paid account is not required.</p>
+      </header>
+      <div class="setup-grid">
+        <div class="setup-list" aria-label="Course requirements">
+          <div class="setup-item">
+            <span class="setup-index">01</span>
+            <div><strong>Laptop and reliable internet</strong><p>Use a current version of Chrome, Firefox, Safari, or Edge. The network must allow access to Google Colab, Google Drive, GitHub, NASA data services, and OpenAQ.</p></div>
+          </div>
+          <div class="setup-item">
+            <span class="setup-index">02</span>
+            <div><strong>Google account</strong><p>Required to connect to a hosted Colab runtime and save a personal notebook copy in Google Drive.</p></div>
+          </div>
+          <div class="setup-item">
+            <span class="setup-index">03</span>
+            <div><strong>Module 0 completed</strong><p>Open the setup notebook, save a Drive copy, run all cells, and confirm that the repository, course assets, and scientific packages pass verification.</p></div>
+          </div>
+          <div class="setup-item">
+            <span class="setup-index">04</span>
+            <div><strong>OpenAQ API key <em>(recommended)</em></strong><p>The live Module 1 observation exercise uses a personal key. <a href="API_KEY_SETUP.md">View secure setup instructions</a>. Recovery data are available if the service or key is unavailable.</p></div>
+          </div>
+        </div>
+        <aside class="ready-panel" aria-labelledby="ready-title">
+          <h3 id="ready-title">Pre-course check</h3>
+          <p>Complete this once before the first session.</p>
+          <div class="checklist">
+            <label><input type="checkbox"> <span>I can open Google Colab and GitHub.</span></label>
+            <label><input type="checkbox"> <span>I am signed in to my Google account.</span></label>
+            <label><input type="checkbox"> <span>I saved Module 0 to Google Drive.</span></label>
+            <label><input type="checkbox"> <span>Module 0 reports no missing course assets.</span></label>
+            <label><input type="checkbox"> <span>I know how to download outputs before a Colab runtime ends.</span></label>
+          </div>
+          <a class="button" href="https://colab.research.google.com/github/alqamahsayeed12/GEOS_Air_Quality_Training_Bangkok_2026/blob/main/notebooks/00_module0_google_colab_setup.ipynb">Run the setup check</a>
+        </aside>
+      </div>
+      <div class="preparation">
+        <div><h3>Helpful background</h3><p>Basic familiarity with Python notebooks, CSV and NetCDF data, dates, latitude and longitude, units, missing values, and simple air-quality statistics.</p></div>
+        <div><h3>Not required</h3><p class="not-required">Conda · local Jupyter · administrator access · dedicated GPU · HPC account · paid Colab plan</p></div>
       </div>
     </section>
 
